@@ -361,6 +361,21 @@
   position: relative;
 }
 
+.upload-profile-photo.cover-photo {
+  width: 100%;
+  background-color: red;
+}
+
+.upload-profile-photo.cover-photo .update-photo,
+.upload-profile-photo.cover-photo .file-upload {
+  width: 100%;
+}
+
+.upload-profile-photo.cover-photo .update-photo img,
+.upload-profile-photo.cover-photo .file-upload img {
+  width: 100%;
+}
+
 .update-photo {
   height: 150px;
   position: relative;

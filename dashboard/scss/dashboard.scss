@@ -337,6 +337,20 @@
 
 .upload-profile-photo {
   position: relative;
+
+  &.cover-photo {
+    width: 100%;
+    background-color: red;
+
+    .update-photo,
+    .file-upload {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .update-photo {
