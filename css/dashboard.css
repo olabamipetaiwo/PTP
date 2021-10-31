@@ -169,7 +169,7 @@
   height: 40px;
   border-radius: 0;
   border: 0;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   outline: none;
   box-shadow: none;
   font-size: 1.4rem;
@@ -211,7 +211,7 @@
   margin-right: 5px;
   margin-bottom: 10px;
   background: rgba(36, 109, 248, 0.15);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   color: #246df8;
 }
 
@@ -244,6 +244,7 @@
   border-radius: 5px;
   padding-left: 80px;
   position: relative;
+  background-image: linear-gradient(to left, #58539f, #8a52b3);
 }
 
 .user-statistic-block .user-statistic svg {
@@ -275,7 +276,7 @@
 }
 
 .user-statistic-block .user-statistic:last-child {
-  background-image: linear-gradient(to right, #91bcf9, #99d7f2);
+  background-image: linear-gradient(to right, #9eacfd, #aea9fe);
 }
 
 .dashboard-recent-activity {
@@ -296,7 +297,7 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .dashboard-recent-activity .activity-list:last-child {
@@ -306,7 +307,7 @@
 .dashboard-recent-activity .activity-list > i {
   width: 30px;
   color: rgba(1, 209, 61, 0.5);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .dashboard-recent-activity .activity-list h5 {
@@ -432,7 +433,7 @@
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 0;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   outline: none;
   font-size: 1.4rem;
   box-shadow: none;
@@ -721,7 +722,7 @@
 
 .dashboard-section .modal .modal-body form .input-group-text:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 10px;
   bottom: 10px;
   right: 0;
@@ -736,7 +737,7 @@
   box-shadow: none;
   border-radius: 0;
   font-size: 1.4rem;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -815,7 +816,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
   color: #246df8;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   background: rgba(36, 109, 248, 0.15);
 }
 
@@ -888,7 +889,7 @@
   line-height: 15px;
   padding: 0;
   margin: 0;
-  font-size: 1.0rem;
+  font-size: 1rem;
   text-align: center;
   border-radius: 3px;
 }
@@ -936,7 +937,7 @@
   left: 5px;
   background: #246df8;
   cursor: pointer;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
 }
 
 .pricing-controller .switch-wrap .switch.year-active {
@@ -969,7 +970,7 @@
 
 .pricing.advance:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   height: 100%;
   width: 1px;
@@ -985,7 +986,7 @@
 }
 
 .pricing .package-title {
-  font-size: 3.0rem;
+  font-size: 3rem;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
@@ -1016,14 +1017,14 @@
 }
 
 .pricing .package-info .call-us {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 600;
   padding-top: 26px;
 }
 
 .pricing .package-info .call-us span {
   color: #246df8;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 .pricing .package-info .hidden {
@@ -1070,7 +1071,7 @@
 
 .pricing .features ul li:before {
   position: absolute;
-  content: '\f058';
+  content: "\f058";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   top: 2px;
@@ -1239,7 +1240,7 @@
   display: flex;
   padding: 15px 20px;
   align-items: center;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
 }
 
 .message-lists .message-single .thumb {
@@ -1527,7 +1528,7 @@
 
 .media-inputs .input-group-text:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 10px;
   bottom: 10px;
   right: 1px;
@@ -1567,7 +1568,7 @@
 
 .social-inputs .input-group-text:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 10px;
   bottom: 10px;
   right: 1px;
@@ -1678,17 +1679,17 @@
   right: -6px;
   background: #f00;
   color: #ffffff;
-  font-size: .6rem;
+  font-size: 0.6rem;
   padding: 5px;
   border-radius: 50%;
 }
 
 .upload-images .pic {
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   align-self: center;
   text-align: center;
   padding: 25px 20px;
-  color: #848EA1;
+  color: #848ea1;
   font-size: 12px;
   cursor: pointer;
 }

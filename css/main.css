@@ -128,7 +128,7 @@ p:last-child {
 }
 
 a {
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 a,
@@ -146,7 +146,7 @@ a:focus {
   box-shadow: none;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .primary-color {
@@ -250,7 +250,7 @@ a:focus {
 
 .fix:before {
   display: block;
-  content: "";
+  content: '';
   clear: both;
 }
 
@@ -464,11 +464,7 @@ a:focus {
   margin-right: 30px;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  input::-webkit-input-placeholder {
+.banner-4 .banner-content .banner-search .search-form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #ffffff;
 }
@@ -478,11 +474,7 @@ a:focus {
   color: #ffffff;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  input:-ms-input-placeholder {
+.banner-4 .banner-content .banner-search .search-form input:-ms-input-placeholder {
   /* IE 10+ */
   color: #ffffff;
 }
@@ -492,11 +484,7 @@ a:focus {
   color: #ffffff;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.banner-4 .banner-content .banner-search .search-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: calc(50% - 110px);
   margin-right: 30px;
 }
@@ -510,13 +498,7 @@ a:focus {
   border-radius: 0;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner {
+.banner-4 .banner-content .banner-search .search-form .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
   line-height: 55px;
   font-size: 1.4rem;
   color: #ffffff;
@@ -539,22 +521,12 @@ a:focus {
   box-shadow: none;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  .bootstrap-select
-  .dropdown-toggle:active:focus {
+.banner-4 .banner-content .banner-search .search-form .bootstrap-select .dropdown-toggle:active:focus {
   background: transparent;
   outline: none !important;
 }
 
-.banner-4
-  .banner-content
-  .banner-search
-  .search-form
-  .bootstrap-select
-  .dropdown-toggle:focus {
+.banner-4 .banner-content .banner-search .search-form .bootstrap-select .dropdown-toggle:focus {
   outline: none !important;
   color: #ffffff;
 }
@@ -611,11 +583,7 @@ a:focus {
     padding: 200px 0 150px;
   }
   .banner-4 .banner-content .banner-search .search-form input,
-  .banner-4
-    .banner-content
-    .banner-search
-    .search-form
-    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .banner-4 .banner-content .banner-search .search-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
@@ -629,12 +597,17 @@ a:focus {
   background: #f7f9fc;
 }
 
+.searchAndFilter-wrapper .container {
+  height: 50px;
+}
+
 .searchAndFilter {
   padding: 30px 30px 35px;
   border: 1px solid rgba(0, 0, 0, 0.03);
   background: #ffffff;
   position: relative;
   transform: translateY(-120px);
+  transform: translateY(-500px);
   border-radius: 3px;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.05);
 }
@@ -739,24 +712,20 @@ a:focus {
   color: #ffffff;
 }
 
-.searchAndFilter
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   border-bottom: 2px solid rgba(0, 0, 0, 0.08);
   width: calc(33% - 78px);
 }
 
-.searchAndFilter
-  .bootstrap-select.show:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter .bootstrap-select.show:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   border-bottom-color: #246df8;
 }
 
-.searchAndFilter.searchAndFilter-2
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter.searchAndFilter-2 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-.searchAndFilter.searchAndFilter-2
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn):focus {
+.searchAndFilter.searchAndFilter-2 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn):focus {
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 
@@ -777,7 +746,7 @@ a:focus {
   top: 6px;
   right: 20px;
   content: "\f107";
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   color: #aaa;
   font-size: 1.4rem;
@@ -865,13 +834,11 @@ a:focus {
   color: #ffffff;
 }
 
-.searchAndFilter.searchAndFilter-2
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter.searchAndFilter-2 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-.searchAndFilter.searchAndFilter-2
-  .bootstrap-select.show:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter.searchAndFilter-2 .bootstrap-select.show:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   border-bottom-color: #ffffff;
 }
 
@@ -938,9 +905,7 @@ a:focus {
   border-right: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.searchAndFilter-3
-  .search-form
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.searchAndFilter-3 .search-form .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 100%;
 }
 
@@ -952,17 +917,11 @@ a:focus {
   box-shadow: none;
 }
 
-.searchAndFilter-3
-  .search-form
-  .btn-light:not(:disabled):not(.disabled):active {
+.searchAndFilter-3 .search-form .btn-light:not(:disabled):not(.disabled):active {
   border-bottom: 0;
 }
 
-.searchAndFilter-3
-  .search-form
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option {
+.searchAndFilter-3 .search-form .bootstrap-select .dropdown-toggle .filter-option {
   padding: 0;
 }
 
@@ -977,10 +936,7 @@ a:focus {
   box-shadow: none;
 }
 
-.searchAndFilter-3
-  .search-form
-  .bootstrap-select
-  .dropdown-toggle:active:focus {
+.searchAndFilter-3 .search-form .bootstrap-select .dropdown-toggle:active:focus {
   background: transparent;
   outline: none !important;
 }
@@ -1146,46 +1102,20 @@ a:focus {
   color: #246df8;
 }
 
-.job-filter-wrapper,
-.candidate-filter-wrapper,
-.employer-filter-wrapper {
+.job-filter-wrapper, .candidate-filter-wrapper, .employer-filter-wrapper {
   background-image: linear-gradient(to right, #ffffff, #f7f9fc);
 }
 
-.job-filter-wrapper .job-filter,
-.candidate-filter-wrapper .job-filter,
-.employer-filter-wrapper .job-filter,
-.job-filter-wrapper .candidate-filter,
-.candidate-filter-wrapper .candidate-filter,
-.employer-filter-wrapper .candidate-filter,
-.job-filter-wrapper .employer-filter,
-.candidate-filter-wrapper .employer-filter,
-.employer-filter-wrapper .employer-filter {
+.job-filter-wrapper .job-filter, .candidate-filter-wrapper .job-filter, .employer-filter-wrapper .job-filter, .job-filter-wrapper .candidate-filter, .candidate-filter-wrapper .candidate-filter, .employer-filter-wrapper .candidate-filter, .job-filter-wrapper .employer-filter, .candidate-filter-wrapper .employer-filter, .employer-filter-wrapper .employer-filter {
   padding: 30px 30px 30px 50px;
   position: relative;
 }
 
-.job-filter-wrapper .job-filter.same-pad,
-.candidate-filter-wrapper .job-filter.same-pad,
-.employer-filter-wrapper .job-filter.same-pad,
-.job-filter-wrapper .same-pad.candidate-filter,
-.candidate-filter-wrapper .same-pad.candidate-filter,
-.employer-filter-wrapper .same-pad.candidate-filter,
-.job-filter-wrapper .same-pad.employer-filter,
-.candidate-filter-wrapper .same-pad.employer-filter,
-.employer-filter-wrapper .same-pad.employer-filter {
+.job-filter-wrapper .job-filter.same-pad, .candidate-filter-wrapper .job-filter.same-pad, .employer-filter-wrapper .job-filter.same-pad, .job-filter-wrapper .same-pad.candidate-filter, .candidate-filter-wrapper .same-pad.candidate-filter, .employer-filter-wrapper .same-pad.candidate-filter, .job-filter-wrapper .same-pad.employer-filter, .candidate-filter-wrapper .same-pad.employer-filter, .employer-filter-wrapper .same-pad.employer-filter {
   padding-left: 30px;
 }
 
-.job-filter-wrapper .job-filter:before,
-.candidate-filter-wrapper .job-filter:before,
-.employer-filter-wrapper .job-filter:before,
-.job-filter-wrapper .candidate-filter:before,
-.candidate-filter-wrapper .candidate-filter:before,
-.employer-filter-wrapper .candidate-filter:before,
-.job-filter-wrapper .employer-filter:before,
-.candidate-filter-wrapper .employer-filter:before,
-.employer-filter-wrapper .employer-filter:before {
+.job-filter-wrapper .job-filter:before, .candidate-filter-wrapper .job-filter:before, .employer-filter-wrapper .job-filter:before, .job-filter-wrapper .candidate-filter:before, .candidate-filter-wrapper .candidate-filter:before, .employer-filter-wrapper .candidate-filter:before, .job-filter-wrapper .employer-filter:before, .candidate-filter-wrapper .employer-filter:before, .employer-filter-wrapper .employer-filter:before {
   position: absolute;
   bottom: 0;
   left: 30px;
@@ -1195,15 +1125,7 @@ a:focus {
   content: "";
 }
 
-.job-filter-wrapper .job-filter .option-title,
-.candidate-filter-wrapper .job-filter .option-title,
-.employer-filter-wrapper .job-filter .option-title,
-.job-filter-wrapper .candidate-filter .option-title,
-.candidate-filter-wrapper .candidate-filter .option-title,
-.employer-filter-wrapper .candidate-filter .option-title,
-.job-filter-wrapper .employer-filter .option-title,
-.candidate-filter-wrapper .employer-filter .option-title,
-.employer-filter-wrapper .employer-filter .option-title {
+.job-filter-wrapper .job-filter .option-title, .candidate-filter-wrapper .job-filter .option-title, .employer-filter-wrapper .job-filter .option-title, .job-filter-wrapper .candidate-filter .option-title, .candidate-filter-wrapper .candidate-filter .option-title, .employer-filter-wrapper .candidate-filter .option-title, .job-filter-wrapper .employer-filter .option-title, .candidate-filter-wrapper .employer-filter .option-title, .employer-filter-wrapper .employer-filter .option-title {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1212,15 +1134,7 @@ a:focus {
   transition: all 0.3s ease;
 }
 
-.job-filter-wrapper .job-filter .option-title:before,
-.candidate-filter-wrapper .job-filter .option-title:before,
-.employer-filter-wrapper .job-filter .option-title:before,
-.job-filter-wrapper .candidate-filter .option-title:before,
-.candidate-filter-wrapper .candidate-filter .option-title:before,
-.employer-filter-wrapper .candidate-filter .option-title:before,
-.job-filter-wrapper .employer-filter .option-title:before,
-.candidate-filter-wrapper .employer-filter .option-title:before,
-.employer-filter-wrapper .employer-filter .option-title:before {
+.job-filter-wrapper .job-filter .option-title:before, .candidate-filter-wrapper .job-filter .option-title:before, .employer-filter-wrapper .job-filter .option-title:before, .job-filter-wrapper .candidate-filter .option-title:before, .candidate-filter-wrapper .candidate-filter .option-title:before, .employer-filter-wrapper .candidate-filter .option-title:before, .job-filter-wrapper .employer-filter .option-title:before, .candidate-filter-wrapper .employer-filter .option-title:before, .employer-filter-wrapper .employer-filter .option-title:before {
   position: absolute;
   content: "\e622";
   font-family: "themify";
@@ -1229,103 +1143,39 @@ a:focus {
   transition: all 0.3s ease;
 }
 
-.job-filter-wrapper .job-filter .option-title.compress:hover,
-.candidate-filter-wrapper .job-filter .option-title.compress:hover,
-.employer-filter-wrapper .job-filter .option-title.compress:hover,
-.job-filter-wrapper .candidate-filter .option-title.compress:hover,
-.candidate-filter-wrapper .candidate-filter .option-title.compress:hover,
-.employer-filter-wrapper .candidate-filter .option-title.compress:hover,
-.job-filter-wrapper .employer-filter .option-title.compress:hover,
-.candidate-filter-wrapper .employer-filter .option-title.compress:hover,
-.employer-filter-wrapper .employer-filter .option-title.compress:hover {
+.job-filter-wrapper .job-filter .option-title.compress:hover, .candidate-filter-wrapper .job-filter .option-title.compress:hover, .employer-filter-wrapper .job-filter .option-title.compress:hover, .job-filter-wrapper .candidate-filter .option-title.compress:hover, .candidate-filter-wrapper .candidate-filter .option-title.compress:hover, .employer-filter-wrapper .candidate-filter .option-title.compress:hover, .job-filter-wrapper .employer-filter .option-title.compress:hover, .candidate-filter-wrapper .employer-filter .option-title.compress:hover, .employer-filter-wrapper .employer-filter .option-title.compress:hover {
   color: #246df8;
 }
 
-.job-filter-wrapper .job-filter .option-title.compress:before,
-.candidate-filter-wrapper .job-filter .option-title.compress:before,
-.employer-filter-wrapper .job-filter .option-title.compress:before,
-.job-filter-wrapper .candidate-filter .option-title.compress:before,
-.candidate-filter-wrapper .candidate-filter .option-title.compress:before,
-.employer-filter-wrapper .candidate-filter .option-title.compress:before,
-.job-filter-wrapper .employer-filter .option-title.compress:before,
-.candidate-filter-wrapper .employer-filter .option-title.compress:before,
-.employer-filter-wrapper .employer-filter .option-title.compress:before {
+.job-filter-wrapper .job-filter .option-title.compress:before, .candidate-filter-wrapper .job-filter .option-title.compress:before, .employer-filter-wrapper .job-filter .option-title.compress:before, .job-filter-wrapper .candidate-filter .option-title.compress:before, .candidate-filter-wrapper .candidate-filter .option-title.compress:before, .employer-filter-wrapper .candidate-filter .option-title.compress:before, .job-filter-wrapper .employer-filter .option-title.compress:before, .candidate-filter-wrapper .employer-filter .option-title.compress:before, .employer-filter-wrapper .employer-filter .option-title.compress:before {
   content: "\e61a";
 }
 
-.job-filter-wrapper .job-filter ul,
-.candidate-filter-wrapper .job-filter ul,
-.employer-filter-wrapper .job-filter ul,
-.job-filter-wrapper .candidate-filter ul,
-.candidate-filter-wrapper .candidate-filter ul,
-.employer-filter-wrapper .candidate-filter ul,
-.job-filter-wrapper .employer-filter ul,
-.candidate-filter-wrapper .employer-filter ul,
-.employer-filter-wrapper .employer-filter ul {
+.job-filter-wrapper .job-filter ul, .candidate-filter-wrapper .job-filter ul, .employer-filter-wrapper .job-filter ul, .job-filter-wrapper .candidate-filter ul, .candidate-filter-wrapper .candidate-filter ul, .employer-filter-wrapper .candidate-filter ul, .job-filter-wrapper .employer-filter ul, .candidate-filter-wrapper .employer-filter ul, .employer-filter-wrapper .employer-filter ul {
   padding: 20px 0 0;
   margin: 0;
   list-style: none;
 }
 
-.job-filter-wrapper .job-filter ul li,
-.candidate-filter-wrapper .job-filter ul li,
-.employer-filter-wrapper .job-filter ul li,
-.job-filter-wrapper .candidate-filter ul li,
-.candidate-filter-wrapper .candidate-filter ul li,
-.employer-filter-wrapper .candidate-filter ul li,
-.job-filter-wrapper .employer-filter ul li,
-.candidate-filter-wrapper .employer-filter ul li,
-.employer-filter-wrapper .employer-filter ul li {
+.job-filter-wrapper .job-filter ul li, .candidate-filter-wrapper .job-filter ul li, .employer-filter-wrapper .job-filter ul li, .job-filter-wrapper .candidate-filter ul li, .candidate-filter-wrapper .candidate-filter ul li, .employer-filter-wrapper .candidate-filter ul li, .job-filter-wrapper .employer-filter ul li, .candidate-filter-wrapper .employer-filter ul li, .employer-filter-wrapper .employer-filter ul li {
   position: relative;
   padding-left: 20px;
 }
 
-.job-filter-wrapper .job-filter ul li + li,
-.candidate-filter-wrapper .job-filter ul li + li,
-.employer-filter-wrapper .job-filter ul li + li,
-.job-filter-wrapper .candidate-filter ul li + li,
-.candidate-filter-wrapper .candidate-filter ul li + li,
-.employer-filter-wrapper .candidate-filter ul li + li,
-.job-filter-wrapper .employer-filter ul li + li,
-.candidate-filter-wrapper .employer-filter ul li + li,
-.employer-filter-wrapper .employer-filter ul li + li {
+.job-filter-wrapper .job-filter ul li + li, .candidate-filter-wrapper .job-filter ul li + li, .employer-filter-wrapper .job-filter ul li + li, .job-filter-wrapper .candidate-filter ul li + li, .candidate-filter-wrapper .candidate-filter ul li + li, .employer-filter-wrapper .candidate-filter ul li + li, .job-filter-wrapper .employer-filter ul li + li, .candidate-filter-wrapper .employer-filter ul li + li, .employer-filter-wrapper .employer-filter ul li + li {
   margin-top: 7px;
 }
 
-.job-filter-wrapper .job-filter ul li a,
-.candidate-filter-wrapper .job-filter ul li a,
-.employer-filter-wrapper .job-filter ul li a,
-.job-filter-wrapper .candidate-filter ul li a,
-.candidate-filter-wrapper .candidate-filter ul li a,
-.employer-filter-wrapper .candidate-filter ul li a,
-.job-filter-wrapper .employer-filter ul li a,
-.candidate-filter-wrapper .employer-filter ul li a,
-.employer-filter-wrapper .employer-filter ul li a {
+.job-filter-wrapper .job-filter ul li a, .candidate-filter-wrapper .job-filter ul li a, .employer-filter-wrapper .job-filter ul li a, .job-filter-wrapper .candidate-filter ul li a, .candidate-filter-wrapper .candidate-filter ul li a, .employer-filter-wrapper .candidate-filter ul li a, .job-filter-wrapper .employer-filter ul li a, .candidate-filter-wrapper .employer-filter ul li a, .employer-filter-wrapper .employer-filter ul li a {
   color: #6f7484;
   font-size: 1.4rem;
 }
 
-.job-filter-wrapper .job-filter ul li a:hover,
-.candidate-filter-wrapper .job-filter ul li a:hover,
-.employer-filter-wrapper .job-filter ul li a:hover,
-.job-filter-wrapper .candidate-filter ul li a:hover,
-.candidate-filter-wrapper .candidate-filter ul li a:hover,
-.employer-filter-wrapper .candidate-filter ul li a:hover,
-.job-filter-wrapper .employer-filter ul li a:hover,
-.candidate-filter-wrapper .employer-filter ul li a:hover,
-.employer-filter-wrapper .employer-filter ul li a:hover {
+.job-filter-wrapper .job-filter ul li a:hover, .candidate-filter-wrapper .job-filter ul li a:hover, .employer-filter-wrapper .job-filter ul li a:hover, .job-filter-wrapper .candidate-filter ul li a:hover, .candidate-filter-wrapper .candidate-filter ul li a:hover, .employer-filter-wrapper .candidate-filter ul li a:hover, .job-filter-wrapper .employer-filter ul li a:hover, .candidate-filter-wrapper .employer-filter ul li a:hover, .employer-filter-wrapper .employer-filter ul li a:hover {
   color: #246df8;
 }
 
-.job-filter-wrapper .job-filter ul li:before,
-.candidate-filter-wrapper .job-filter ul li:before,
-.employer-filter-wrapper .job-filter ul li:before,
-.job-filter-wrapper .candidate-filter ul li:before,
-.candidate-filter-wrapper .candidate-filter ul li:before,
-.employer-filter-wrapper .candidate-filter ul li:before,
-.job-filter-wrapper .employer-filter ul li:before,
-.candidate-filter-wrapper .employer-filter ul li:before,
-.employer-filter-wrapper .employer-filter ul li:before {
+.job-filter-wrapper .job-filter ul li:before, .candidate-filter-wrapper .job-filter ul li:before, .employer-filter-wrapper .job-filter ul li:before, .job-filter-wrapper .candidate-filter ul li:before, .candidate-filter-wrapper .candidate-filter ul li:before, .employer-filter-wrapper .candidate-filter ul li:before, .job-filter-wrapper .employer-filter ul li:before, .candidate-filter-wrapper .employer-filter ul li:before, .employer-filter-wrapper .employer-filter ul li:before {
   position: absolute;
   content: "\e622";
   font-family: "themify";
@@ -1333,15 +1183,7 @@ a:focus {
   left: 0;
 }
 
-.job-filter-wrapper .job-filter:last-child:after,
-.candidate-filter-wrapper .job-filter:last-child:after,
-.employer-filter-wrapper .job-filter:last-child:after,
-.job-filter-wrapper .candidate-filter:last-child:after,
-.candidate-filter-wrapper .candidate-filter:last-child:after,
-.employer-filter-wrapper .candidate-filter:last-child:after,
-.job-filter-wrapper .employer-filter:last-child:after,
-.candidate-filter-wrapper .employer-filter:last-child:after,
-.employer-filter-wrapper .employer-filter:last-child:after {
+.job-filter-wrapper .job-filter:last-child:after, .candidate-filter-wrapper .job-filter:last-child:after, .employer-filter-wrapper .job-filter:last-child:after, .job-filter-wrapper .candidate-filter:last-child:after, .candidate-filter-wrapper .candidate-filter:last-child:after, .employer-filter-wrapper .candidate-filter:last-child:after, .job-filter-wrapper .employer-filter:last-child:after, .candidate-filter-wrapper .employer-filter:last-child:after, .employer-filter-wrapper .employer-filter:last-child:after {
   position: absolute;
   bottom: 0;
   left: 30px;
@@ -1351,227 +1193,37 @@ a:focus {
   content: "";
 }
 
-.job-filter-wrapper .job-filter.job-type ul li,
-.candidate-filter-wrapper .job-filter.job-type ul li,
-.employer-filter-wrapper .job-filter.job-type ul li,
-.job-filter-wrapper .job-type.candidate-filter ul li,
-.candidate-filter-wrapper .job-type.candidate-filter ul li,
-.employer-filter-wrapper .job-type.candidate-filter ul li,
-.job-filter-wrapper .candidate-filter.candidate-type ul li,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul li,
-.employer-filter-wrapper .candidate-filter.candidate-type ul li,
-.job-filter-wrapper .candidate-filter.employer-type ul li,
-.candidate-filter-wrapper .candidate-filter.employer-type ul li,
-.employer-filter-wrapper .candidate-filter.employer-type ul li,
-.job-filter-wrapper .job-filter.candidate-type ul li,
-.candidate-filter-wrapper .job-filter.candidate-type ul li,
-.employer-filter-wrapper .job-filter.candidate-type ul li,
-.job-filter-wrapper .candidate-type.employer-filter ul li,
-.candidate-filter-wrapper .candidate-type.employer-filter ul li,
-.employer-filter-wrapper .candidate-type.employer-filter ul li,
-.job-filter-wrapper .job-type.employer-filter ul li,
-.candidate-filter-wrapper .job-type.employer-filter ul li,
-.employer-filter-wrapper .job-type.employer-filter ul li,
-.job-filter-wrapper .employer-filter.employer-type ul li,
-.candidate-filter-wrapper .employer-filter.employer-type ul li,
-.employer-filter-wrapper .employer-filter.employer-type ul li,
-.job-filter-wrapper .job-filter.employer-type ul li,
-.candidate-filter-wrapper .job-filter.employer-type ul li,
-.employer-filter-wrapper .job-filter.employer-type ul li {
+.job-filter-wrapper .job-filter.job-type ul li, .candidate-filter-wrapper .job-filter.job-type ul li, .employer-filter-wrapper .job-filter.job-type ul li, .job-filter-wrapper .job-type.candidate-filter ul li, .candidate-filter-wrapper .job-type.candidate-filter ul li, .employer-filter-wrapper .job-type.candidate-filter ul li, .job-filter-wrapper .candidate-filter.candidate-type ul li, .candidate-filter-wrapper .candidate-filter.candidate-type ul li, .employer-filter-wrapper .candidate-filter.candidate-type ul li, .job-filter-wrapper .candidate-filter.employer-type ul li, .candidate-filter-wrapper .candidate-filter.employer-type ul li, .employer-filter-wrapper .candidate-filter.employer-type ul li, .job-filter-wrapper .job-filter.candidate-type ul li, .candidate-filter-wrapper .job-filter.candidate-type ul li, .employer-filter-wrapper .job-filter.candidate-type ul li, .job-filter-wrapper .candidate-type.employer-filter ul li, .candidate-filter-wrapper .candidate-type.employer-filter ul li, .employer-filter-wrapper .candidate-type.employer-filter ul li, .job-filter-wrapper .job-type.employer-filter ul li, .candidate-filter-wrapper .job-type.employer-filter ul li, .employer-filter-wrapper .job-type.employer-filter ul li, .job-filter-wrapper .employer-filter.employer-type ul li, .candidate-filter-wrapper .employer-filter.employer-type ul li, .employer-filter-wrapper .employer-filter.employer-type ul li, .job-filter-wrapper .job-filter.employer-type ul li, .candidate-filter-wrapper .job-filter.employer-type ul li, .employer-filter-wrapper .job-filter.employer-type ul li {
   padding-left: 0;
 }
 
-.job-filter-wrapper .job-filter.job-type ul li:before,
-.candidate-filter-wrapper .job-filter.job-type ul li:before,
-.employer-filter-wrapper .job-filter.job-type ul li:before,
-.job-filter-wrapper .job-type.candidate-filter ul li:before,
-.candidate-filter-wrapper .job-type.candidate-filter ul li:before,
-.employer-filter-wrapper .job-type.candidate-filter ul li:before,
-.job-filter-wrapper .candidate-filter.candidate-type ul li:before,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul li:before,
-.employer-filter-wrapper .candidate-filter.candidate-type ul li:before,
-.job-filter-wrapper .candidate-filter.employer-type ul li:before,
-.candidate-filter-wrapper .candidate-filter.employer-type ul li:before,
-.employer-filter-wrapper .candidate-filter.employer-type ul li:before,
-.job-filter-wrapper .job-filter.candidate-type ul li:before,
-.candidate-filter-wrapper .job-filter.candidate-type ul li:before,
-.employer-filter-wrapper .job-filter.candidate-type ul li:before,
-.job-filter-wrapper .candidate-type.employer-filter ul li:before,
-.candidate-filter-wrapper .candidate-type.employer-filter ul li:before,
-.employer-filter-wrapper .candidate-type.employer-filter ul li:before,
-.job-filter-wrapper .job-type.employer-filter ul li:before,
-.candidate-filter-wrapper .job-type.employer-filter ul li:before,
-.employer-filter-wrapper .job-type.employer-filter ul li:before,
-.job-filter-wrapper .employer-filter.employer-type ul li:before,
-.candidate-filter-wrapper .employer-filter.employer-type ul li:before,
-.employer-filter-wrapper .employer-filter.employer-type ul li:before,
-.job-filter-wrapper .job-filter.employer-type ul li:before,
-.candidate-filter-wrapper .job-filter.employer-type ul li:before,
-.employer-filter-wrapper .job-filter.employer-type ul li:before {
+.job-filter-wrapper .job-filter.job-type ul li:before, .candidate-filter-wrapper .job-filter.job-type ul li:before, .employer-filter-wrapper .job-filter.job-type ul li:before, .job-filter-wrapper .job-type.candidate-filter ul li:before, .candidate-filter-wrapper .job-type.candidate-filter ul li:before, .employer-filter-wrapper .job-type.candidate-filter ul li:before, .job-filter-wrapper .candidate-filter.candidate-type ul li:before, .candidate-filter-wrapper .candidate-filter.candidate-type ul li:before, .employer-filter-wrapper .candidate-filter.candidate-type ul li:before, .job-filter-wrapper .candidate-filter.employer-type ul li:before, .candidate-filter-wrapper .candidate-filter.employer-type ul li:before, .employer-filter-wrapper .candidate-filter.employer-type ul li:before, .job-filter-wrapper .job-filter.candidate-type ul li:before, .candidate-filter-wrapper .job-filter.candidate-type ul li:before, .employer-filter-wrapper .job-filter.candidate-type ul li:before, .job-filter-wrapper .candidate-type.employer-filter ul li:before, .candidate-filter-wrapper .candidate-type.employer-filter ul li:before, .employer-filter-wrapper .candidate-type.employer-filter ul li:before, .job-filter-wrapper .job-type.employer-filter ul li:before, .candidate-filter-wrapper .job-type.employer-filter ul li:before, .employer-filter-wrapper .job-type.employer-filter ul li:before, .job-filter-wrapper .employer-filter.employer-type ul li:before, .candidate-filter-wrapper .employer-filter.employer-type ul li:before, .employer-filter-wrapper .employer-filter.employer-type ul li:before, .job-filter-wrapper .job-filter.employer-type ul li:before, .candidate-filter-wrapper .job-filter.employer-type ul li:before, .employer-filter-wrapper .job-filter.employer-type ul li:before {
   content: "";
 }
 
-.job-filter-wrapper .job-filter.job-type ul li svg,
-.candidate-filter-wrapper .job-filter.job-type ul li svg,
-.employer-filter-wrapper .job-filter.job-type ul li svg,
-.job-filter-wrapper .job-type.candidate-filter ul li svg,
-.candidate-filter-wrapper .job-type.candidate-filter ul li svg,
-.employer-filter-wrapper .job-type.candidate-filter ul li svg,
-.job-filter-wrapper .candidate-filter.candidate-type ul li svg,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul li svg,
-.employer-filter-wrapper .candidate-filter.candidate-type ul li svg,
-.job-filter-wrapper .candidate-filter.employer-type ul li svg,
-.candidate-filter-wrapper .candidate-filter.employer-type ul li svg,
-.employer-filter-wrapper .candidate-filter.employer-type ul li svg,
-.job-filter-wrapper .job-filter.candidate-type ul li svg,
-.candidate-filter-wrapper .job-filter.candidate-type ul li svg,
-.employer-filter-wrapper .job-filter.candidate-type ul li svg,
-.job-filter-wrapper .candidate-type.employer-filter ul li svg,
-.candidate-filter-wrapper .candidate-type.employer-filter ul li svg,
-.employer-filter-wrapper .candidate-type.employer-filter ul li svg,
-.job-filter-wrapper .job-type.employer-filter ul li svg,
-.candidate-filter-wrapper .job-type.employer-filter ul li svg,
-.employer-filter-wrapper .job-type.employer-filter ul li svg,
-.job-filter-wrapper .employer-filter.employer-type ul li svg,
-.candidate-filter-wrapper .employer-filter.employer-type ul li svg,
-.employer-filter-wrapper .employer-filter.employer-type ul li svg,
-.job-filter-wrapper .job-filter.employer-type ul li svg,
-.candidate-filter-wrapper .job-filter.employer-type ul li svg,
-.employer-filter-wrapper .job-filter.employer-type ul li svg {
+.job-filter-wrapper .job-filter.job-type ul li svg, .candidate-filter-wrapper .job-filter.job-type ul li svg, .employer-filter-wrapper .job-filter.job-type ul li svg, .job-filter-wrapper .job-type.candidate-filter ul li svg, .candidate-filter-wrapper .job-type.candidate-filter ul li svg, .employer-filter-wrapper .job-type.candidate-filter ul li svg, .job-filter-wrapper .candidate-filter.candidate-type ul li svg, .candidate-filter-wrapper .candidate-filter.candidate-type ul li svg, .employer-filter-wrapper .candidate-filter.candidate-type ul li svg, .job-filter-wrapper .candidate-filter.employer-type ul li svg, .candidate-filter-wrapper .candidate-filter.employer-type ul li svg, .employer-filter-wrapper .candidate-filter.employer-type ul li svg, .job-filter-wrapper .job-filter.candidate-type ul li svg, .candidate-filter-wrapper .job-filter.candidate-type ul li svg, .employer-filter-wrapper .job-filter.candidate-type ul li svg, .job-filter-wrapper .candidate-type.employer-filter ul li svg, .candidate-filter-wrapper .candidate-type.employer-filter ul li svg, .employer-filter-wrapper .candidate-type.employer-filter ul li svg, .job-filter-wrapper .job-type.employer-filter ul li svg, .candidate-filter-wrapper .job-type.employer-filter ul li svg, .employer-filter-wrapper .job-type.employer-filter ul li svg, .job-filter-wrapper .employer-filter.employer-type ul li svg, .candidate-filter-wrapper .employer-filter.employer-type ul li svg, .employer-filter-wrapper .employer-filter.employer-type ul li svg, .job-filter-wrapper .job-filter.employer-type ul li svg, .candidate-filter-wrapper .job-filter.employer-type ul li svg, .employer-filter-wrapper .job-filter.employer-type ul li svg {
   height: 14px;
   width: 14px;
   margin-right: 7px;
 }
 
-.job-filter-wrapper .job-filter.job-type ul .full-time svg,
-.candidate-filter-wrapper .job-filter.job-type ul .full-time svg,
-.employer-filter-wrapper .job-filter.job-type ul .full-time svg,
-.job-filter-wrapper .job-type.candidate-filter ul .full-time svg,
-.candidate-filter-wrapper .job-type.candidate-filter ul .full-time svg,
-.employer-filter-wrapper .job-type.candidate-filter ul .full-time svg,
-.job-filter-wrapper .candidate-filter.candidate-type ul .full-time svg,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul .full-time svg,
-.employer-filter-wrapper .candidate-filter.candidate-type ul .full-time svg,
-.job-filter-wrapper .candidate-filter.employer-type ul .full-time svg,
-.candidate-filter-wrapper .candidate-filter.employer-type ul .full-time svg,
-.employer-filter-wrapper .candidate-filter.employer-type ul .full-time svg,
-.job-filter-wrapper .job-filter.candidate-type ul .full-time svg,
-.candidate-filter-wrapper .job-filter.candidate-type ul .full-time svg,
-.employer-filter-wrapper .job-filter.candidate-type ul .full-time svg,
-.job-filter-wrapper .candidate-type.employer-filter ul .full-time svg,
-.candidate-filter-wrapper .candidate-type.employer-filter ul .full-time svg,
-.employer-filter-wrapper .candidate-type.employer-filter ul .full-time svg,
-.job-filter-wrapper .job-type.employer-filter ul .full-time svg,
-.candidate-filter-wrapper .job-type.employer-filter ul .full-time svg,
-.employer-filter-wrapper .job-type.employer-filter ul .full-time svg,
-.job-filter-wrapper .employer-filter.employer-type ul .full-time svg,
-.candidate-filter-wrapper .employer-filter.employer-type ul .full-time svg,
-.employer-filter-wrapper .employer-filter.employer-type ul .full-time svg,
-.job-filter-wrapper .job-filter.employer-type ul .full-time svg,
-.candidate-filter-wrapper .job-filter.employer-type ul .full-time svg,
-.employer-filter-wrapper .job-filter.employer-type ul .full-time svg {
+.job-filter-wrapper .job-filter.job-type ul .full-time svg, .candidate-filter-wrapper .job-filter.job-type ul .full-time svg, .employer-filter-wrapper .job-filter.job-type ul .full-time svg, .job-filter-wrapper .job-type.candidate-filter ul .full-time svg, .candidate-filter-wrapper .job-type.candidate-filter ul .full-time svg, .employer-filter-wrapper .job-type.candidate-filter ul .full-time svg, .job-filter-wrapper .candidate-filter.candidate-type ul .full-time svg, .candidate-filter-wrapper .candidate-filter.candidate-type ul .full-time svg, .employer-filter-wrapper .candidate-filter.candidate-type ul .full-time svg, .job-filter-wrapper .candidate-filter.employer-type ul .full-time svg, .candidate-filter-wrapper .candidate-filter.employer-type ul .full-time svg, .employer-filter-wrapper .candidate-filter.employer-type ul .full-time svg, .job-filter-wrapper .job-filter.candidate-type ul .full-time svg, .candidate-filter-wrapper .job-filter.candidate-type ul .full-time svg, .employer-filter-wrapper .job-filter.candidate-type ul .full-time svg, .job-filter-wrapper .candidate-type.employer-filter ul .full-time svg, .candidate-filter-wrapper .candidate-type.employer-filter ul .full-time svg, .employer-filter-wrapper .candidate-type.employer-filter ul .full-time svg, .job-filter-wrapper .job-type.employer-filter ul .full-time svg, .candidate-filter-wrapper .job-type.employer-filter ul .full-time svg, .employer-filter-wrapper .job-type.employer-filter ul .full-time svg, .job-filter-wrapper .employer-filter.employer-type ul .full-time svg, .candidate-filter-wrapper .employer-filter.employer-type ul .full-time svg, .employer-filter-wrapper .employer-filter.employer-type ul .full-time svg, .job-filter-wrapper .job-filter.employer-type ul .full-time svg, .candidate-filter-wrapper .job-filter.employer-type ul .full-time svg, .employer-filter-wrapper .job-filter.employer-type ul .full-time svg {
   color: #ff9247;
 }
 
-.job-filter-wrapper .job-filter.job-type ul .part-time svg,
-.candidate-filter-wrapper .job-filter.job-type ul .part-time svg,
-.employer-filter-wrapper .job-filter.job-type ul .part-time svg,
-.job-filter-wrapper .job-type.candidate-filter ul .part-time svg,
-.candidate-filter-wrapper .job-type.candidate-filter ul .part-time svg,
-.employer-filter-wrapper .job-type.candidate-filter ul .part-time svg,
-.job-filter-wrapper .candidate-filter.candidate-type ul .part-time svg,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul .part-time svg,
-.employer-filter-wrapper .candidate-filter.candidate-type ul .part-time svg,
-.job-filter-wrapper .candidate-filter.employer-type ul .part-time svg,
-.candidate-filter-wrapper .candidate-filter.employer-type ul .part-time svg,
-.employer-filter-wrapper .candidate-filter.employer-type ul .part-time svg,
-.job-filter-wrapper .job-filter.candidate-type ul .part-time svg,
-.candidate-filter-wrapper .job-filter.candidate-type ul .part-time svg,
-.employer-filter-wrapper .job-filter.candidate-type ul .part-time svg,
-.job-filter-wrapper .candidate-type.employer-filter ul .part-time svg,
-.candidate-filter-wrapper .candidate-type.employer-filter ul .part-time svg,
-.employer-filter-wrapper .candidate-type.employer-filter ul .part-time svg,
-.job-filter-wrapper .job-type.employer-filter ul .part-time svg,
-.candidate-filter-wrapper .job-type.employer-filter ul .part-time svg,
-.employer-filter-wrapper .job-type.employer-filter ul .part-time svg,
-.job-filter-wrapper .employer-filter.employer-type ul .part-time svg,
-.candidate-filter-wrapper .employer-filter.employer-type ul .part-time svg,
-.employer-filter-wrapper .employer-filter.employer-type ul .part-time svg,
-.job-filter-wrapper .job-filter.employer-type ul .part-time svg,
-.candidate-filter-wrapper .job-filter.employer-type ul .part-time svg,
-.employer-filter-wrapper .job-filter.employer-type ul .part-time svg {
+.job-filter-wrapper .job-filter.job-type ul .part-time svg, .candidate-filter-wrapper .job-filter.job-type ul .part-time svg, .employer-filter-wrapper .job-filter.job-type ul .part-time svg, .job-filter-wrapper .job-type.candidate-filter ul .part-time svg, .candidate-filter-wrapper .job-type.candidate-filter ul .part-time svg, .employer-filter-wrapper .job-type.candidate-filter ul .part-time svg, .job-filter-wrapper .candidate-filter.candidate-type ul .part-time svg, .candidate-filter-wrapper .candidate-filter.candidate-type ul .part-time svg, .employer-filter-wrapper .candidate-filter.candidate-type ul .part-time svg, .job-filter-wrapper .candidate-filter.employer-type ul .part-time svg, .candidate-filter-wrapper .candidate-filter.employer-type ul .part-time svg, .employer-filter-wrapper .candidate-filter.employer-type ul .part-time svg, .job-filter-wrapper .job-filter.candidate-type ul .part-time svg, .candidate-filter-wrapper .job-filter.candidate-type ul .part-time svg, .employer-filter-wrapper .job-filter.candidate-type ul .part-time svg, .job-filter-wrapper .candidate-type.employer-filter ul .part-time svg, .candidate-filter-wrapper .candidate-type.employer-filter ul .part-time svg, .employer-filter-wrapper .candidate-type.employer-filter ul .part-time svg, .job-filter-wrapper .job-type.employer-filter ul .part-time svg, .candidate-filter-wrapper .job-type.employer-filter ul .part-time svg, .employer-filter-wrapper .job-type.employer-filter ul .part-time svg, .job-filter-wrapper .employer-filter.employer-type ul .part-time svg, .candidate-filter-wrapper .employer-filter.employer-type ul .part-time svg, .employer-filter-wrapper .employer-filter.employer-type ul .part-time svg, .job-filter-wrapper .job-filter.employer-type ul .part-time svg, .candidate-filter-wrapper .job-filter.employer-type ul .part-time svg, .employer-filter-wrapper .job-filter.employer-type ul .part-time svg {
   color: #6e75d0;
 }
 
-.job-filter-wrapper .job-filter.job-type ul .freelance svg,
-.candidate-filter-wrapper .job-filter.job-type ul .freelance svg,
-.employer-filter-wrapper .job-filter.job-type ul .freelance svg,
-.job-filter-wrapper .job-type.candidate-filter ul .freelance svg,
-.candidate-filter-wrapper .job-type.candidate-filter ul .freelance svg,
-.employer-filter-wrapper .job-type.candidate-filter ul .freelance svg,
-.job-filter-wrapper .candidate-filter.candidate-type ul .freelance svg,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul .freelance svg,
-.employer-filter-wrapper .candidate-filter.candidate-type ul .freelance svg,
-.job-filter-wrapper .candidate-filter.employer-type ul .freelance svg,
-.candidate-filter-wrapper .candidate-filter.employer-type ul .freelance svg,
-.employer-filter-wrapper .candidate-filter.employer-type ul .freelance svg,
-.job-filter-wrapper .job-filter.candidate-type ul .freelance svg,
-.candidate-filter-wrapper .job-filter.candidate-type ul .freelance svg,
-.employer-filter-wrapper .job-filter.candidate-type ul .freelance svg,
-.job-filter-wrapper .candidate-type.employer-filter ul .freelance svg,
-.candidate-filter-wrapper .candidate-type.employer-filter ul .freelance svg,
-.employer-filter-wrapper .candidate-type.employer-filter ul .freelance svg,
-.job-filter-wrapper .job-type.employer-filter ul .freelance svg,
-.candidate-filter-wrapper .job-type.employer-filter ul .freelance svg,
-.employer-filter-wrapper .job-type.employer-filter ul .freelance svg,
-.job-filter-wrapper .employer-filter.employer-type ul .freelance svg,
-.candidate-filter-wrapper .employer-filter.employer-type ul .freelance svg,
-.employer-filter-wrapper .employer-filter.employer-type ul .freelance svg,
-.job-filter-wrapper .job-filter.employer-type ul .freelance svg,
-.candidate-filter-wrapper .job-filter.employer-type ul .freelance svg,
-.employer-filter-wrapper .job-filter.employer-type ul .freelance svg {
+.job-filter-wrapper .job-filter.job-type ul .freelance svg, .candidate-filter-wrapper .job-filter.job-type ul .freelance svg, .employer-filter-wrapper .job-filter.job-type ul .freelance svg, .job-filter-wrapper .job-type.candidate-filter ul .freelance svg, .candidate-filter-wrapper .job-type.candidate-filter ul .freelance svg, .employer-filter-wrapper .job-type.candidate-filter ul .freelance svg, .job-filter-wrapper .candidate-filter.candidate-type ul .freelance svg, .candidate-filter-wrapper .candidate-filter.candidate-type ul .freelance svg, .employer-filter-wrapper .candidate-filter.candidate-type ul .freelance svg, .job-filter-wrapper .candidate-filter.employer-type ul .freelance svg, .candidate-filter-wrapper .candidate-filter.employer-type ul .freelance svg, .employer-filter-wrapper .candidate-filter.employer-type ul .freelance svg, .job-filter-wrapper .job-filter.candidate-type ul .freelance svg, .candidate-filter-wrapper .job-filter.candidate-type ul .freelance svg, .employer-filter-wrapper .job-filter.candidate-type ul .freelance svg, .job-filter-wrapper .candidate-type.employer-filter ul .freelance svg, .candidate-filter-wrapper .candidate-type.employer-filter ul .freelance svg, .employer-filter-wrapper .candidate-type.employer-filter ul .freelance svg, .job-filter-wrapper .job-type.employer-filter ul .freelance svg, .candidate-filter-wrapper .job-type.employer-filter ul .freelance svg, .employer-filter-wrapper .job-type.employer-filter ul .freelance svg, .job-filter-wrapper .employer-filter.employer-type ul .freelance svg, .candidate-filter-wrapper .employer-filter.employer-type ul .freelance svg, .employer-filter-wrapper .employer-filter.employer-type ul .freelance svg, .job-filter-wrapper .job-filter.employer-type ul .freelance svg, .candidate-filter-wrapper .job-filter.employer-type ul .freelance svg, .employer-filter-wrapper .job-filter.employer-type ul .freelance svg {
   color: #82d219;
 }
 
-.job-filter-wrapper .job-filter.job-type ul .temporary svg,
-.candidate-filter-wrapper .job-filter.job-type ul .temporary svg,
-.employer-filter-wrapper .job-filter.job-type ul .temporary svg,
-.job-filter-wrapper .job-type.candidate-filter ul .temporary svg,
-.candidate-filter-wrapper .job-type.candidate-filter ul .temporary svg,
-.employer-filter-wrapper .job-type.candidate-filter ul .temporary svg,
-.job-filter-wrapper .candidate-filter.candidate-type ul .temporary svg,
-.candidate-filter-wrapper .candidate-filter.candidate-type ul .temporary svg,
-.employer-filter-wrapper .candidate-filter.candidate-type ul .temporary svg,
-.job-filter-wrapper .candidate-filter.employer-type ul .temporary svg,
-.candidate-filter-wrapper .candidate-filter.employer-type ul .temporary svg,
-.employer-filter-wrapper .candidate-filter.employer-type ul .temporary svg,
-.job-filter-wrapper .job-filter.candidate-type ul .temporary svg,
-.candidate-filter-wrapper .job-filter.candidate-type ul .temporary svg,
-.employer-filter-wrapper .job-filter.candidate-type ul .temporary svg,
-.job-filter-wrapper .candidate-type.employer-filter ul .temporary svg,
-.candidate-filter-wrapper .candidate-type.employer-filter ul .temporary svg,
-.employer-filter-wrapper .candidate-type.employer-filter ul .temporary svg,
-.job-filter-wrapper .job-type.employer-filter ul .temporary svg,
-.candidate-filter-wrapper .job-type.employer-filter ul .temporary svg,
-.employer-filter-wrapper .job-type.employer-filter ul .temporary svg,
-.job-filter-wrapper .employer-filter.employer-type ul .temporary svg,
-.candidate-filter-wrapper .employer-filter.employer-type ul .temporary svg,
-.employer-filter-wrapper .employer-filter.employer-type ul .temporary svg,
-.job-filter-wrapper .job-filter.employer-type ul .temporary svg,
-.candidate-filter-wrapper .job-filter.employer-type ul .temporary svg,
-.employer-filter-wrapper .job-filter.employer-type ul .temporary svg {
+.job-filter-wrapper .job-filter.job-type ul .temporary svg, .candidate-filter-wrapper .job-filter.job-type ul .temporary svg, .employer-filter-wrapper .job-filter.job-type ul .temporary svg, .job-filter-wrapper .job-type.candidate-filter ul .temporary svg, .candidate-filter-wrapper .job-type.candidate-filter ul .temporary svg, .employer-filter-wrapper .job-type.candidate-filter ul .temporary svg, .job-filter-wrapper .candidate-filter.candidate-type ul .temporary svg, .candidate-filter-wrapper .candidate-filter.candidate-type ul .temporary svg, .employer-filter-wrapper .candidate-filter.candidate-type ul .temporary svg, .job-filter-wrapper .candidate-filter.employer-type ul .temporary svg, .candidate-filter-wrapper .candidate-filter.employer-type ul .temporary svg, .employer-filter-wrapper .candidate-filter.employer-type ul .temporary svg, .job-filter-wrapper .job-filter.candidate-type ul .temporary svg, .candidate-filter-wrapper .job-filter.candidate-type ul .temporary svg, .employer-filter-wrapper .job-filter.candidate-type ul .temporary svg, .job-filter-wrapper .candidate-type.employer-filter ul .temporary svg, .candidate-filter-wrapper .candidate-type.employer-filter ul .temporary svg, .employer-filter-wrapper .candidate-type.employer-filter ul .temporary svg, .job-filter-wrapper .job-type.employer-filter ul .temporary svg, .candidate-filter-wrapper .job-type.employer-filter ul .temporary svg, .employer-filter-wrapper .job-type.employer-filter ul .temporary svg, .job-filter-wrapper .employer-filter.employer-type ul .temporary svg, .candidate-filter-wrapper .employer-filter.employer-type ul .temporary svg, .employer-filter-wrapper .employer-filter.employer-type ul .temporary svg, .job-filter-wrapper .job-filter.employer-type ul .temporary svg, .candidate-filter-wrapper .job-filter.employer-type ul .temporary svg, .employer-filter-wrapper .job-filter.employer-type ul .temporary svg {
   color: #ff5377;
 }
 
-.job-filter-wrapper .job-filter .nstSlider,
-.candidate-filter-wrapper .job-filter .nstSlider,
-.employer-filter-wrapper .job-filter .nstSlider,
-.job-filter-wrapper .candidate-filter .nstSlider,
-.candidate-filter-wrapper .candidate-filter .nstSlider,
-.employer-filter-wrapper .candidate-filter .nstSlider,
-.job-filter-wrapper .employer-filter .nstSlider,
-.candidate-filter-wrapper .employer-filter .nstSlider,
-.employer-filter-wrapper .employer-filter .nstSlider {
+.job-filter-wrapper .job-filter .nstSlider, .candidate-filter-wrapper .job-filter .nstSlider, .employer-filter-wrapper .job-filter .nstSlider, .job-filter-wrapper .candidate-filter .nstSlider, .candidate-filter-wrapper .candidate-filter .nstSlider, .employer-filter-wrapper .candidate-filter .nstSlider, .job-filter-wrapper .employer-filter .nstSlider, .candidate-filter-wrapper .employer-filter .nstSlider, .employer-filter-wrapper .employer-filter .nstSlider {
   width: 100%;
   height: 3px;
   margin: 20px 0 37px;
@@ -1579,30 +1231,14 @@ a:focus {
   cursor: auto;
 }
 
-.job-filter-wrapper .job-filter .nstSlider .bar,
-.candidate-filter-wrapper .job-filter .nstSlider .bar,
-.employer-filter-wrapper .job-filter .nstSlider .bar,
-.job-filter-wrapper .candidate-filter .nstSlider .bar,
-.candidate-filter-wrapper .candidate-filter .nstSlider .bar,
-.employer-filter-wrapper .candidate-filter .nstSlider .bar,
-.job-filter-wrapper .employer-filter .nstSlider .bar,
-.candidate-filter-wrapper .employer-filter .nstSlider .bar,
-.employer-filter-wrapper .employer-filter .nstSlider .bar {
+.job-filter-wrapper .job-filter .nstSlider .bar, .candidate-filter-wrapper .job-filter .nstSlider .bar, .employer-filter-wrapper .job-filter .nstSlider .bar, .job-filter-wrapper .candidate-filter .nstSlider .bar, .candidate-filter-wrapper .candidate-filter .nstSlider .bar, .employer-filter-wrapper .candidate-filter .nstSlider .bar, .job-filter-wrapper .employer-filter .nstSlider .bar, .candidate-filter-wrapper .employer-filter .nstSlider .bar, .employer-filter-wrapper .employer-filter .nstSlider .bar {
   height: 3px;
   top: 0;
   min-width: 0;
   background: #246df8;
 }
 
-.job-filter-wrapper .job-filter .nstSlider .leftGrip,
-.candidate-filter-wrapper .job-filter .nstSlider .leftGrip,
-.employer-filter-wrapper .job-filter .nstSlider .leftGrip,
-.job-filter-wrapper .candidate-filter .nstSlider .leftGrip,
-.candidate-filter-wrapper .candidate-filter .nstSlider .leftGrip,
-.employer-filter-wrapper .candidate-filter .nstSlider .leftGrip,
-.job-filter-wrapper .employer-filter .nstSlider .leftGrip,
-.candidate-filter-wrapper .employer-filter .nstSlider .leftGrip,
-.employer-filter-wrapper .employer-filter .nstSlider .leftGrip,
+.job-filter-wrapper .job-filter .nstSlider .leftGrip, .candidate-filter-wrapper .job-filter .nstSlider .leftGrip, .employer-filter-wrapper .job-filter .nstSlider .leftGrip, .job-filter-wrapper .candidate-filter .nstSlider .leftGrip, .candidate-filter-wrapper .candidate-filter .nstSlider .leftGrip, .employer-filter-wrapper .candidate-filter .nstSlider .leftGrip, .job-filter-wrapper .employer-filter .nstSlider .leftGrip, .candidate-filter-wrapper .employer-filter .nstSlider .leftGrip, .employer-filter-wrapper .employer-filter .nstSlider .leftGrip,
 .job-filter-wrapper .job-filter .nstSlider .rightGrip,
 .candidate-filter-wrapper .job-filter .nstSlider .rightGrip,
 .employer-filter-wrapper .job-filter .nstSlider .rightGrip,
@@ -1621,537 +1257,111 @@ a:focus {
   cursor: pointer;
 }
 
-.job-filter-wrapper .job-filter .nstSlider .grip-label,
-.candidate-filter-wrapper .job-filter .nstSlider .grip-label,
-.employer-filter-wrapper .job-filter .nstSlider .grip-label,
-.job-filter-wrapper .candidate-filter .nstSlider .grip-label,
-.candidate-filter-wrapper .candidate-filter .nstSlider .grip-label,
-.employer-filter-wrapper .candidate-filter .nstSlider .grip-label,
-.job-filter-wrapper .employer-filter .nstSlider .grip-label,
-.candidate-filter-wrapper .employer-filter .nstSlider .grip-label,
-.employer-filter-wrapper .employer-filter .nstSlider .grip-label {
+.job-filter-wrapper .job-filter .nstSlider .grip-label, .candidate-filter-wrapper .job-filter .nstSlider .grip-label, .employer-filter-wrapper .job-filter .nstSlider .grip-label, .job-filter-wrapper .candidate-filter .nstSlider .grip-label, .candidate-filter-wrapper .candidate-filter .nstSlider .grip-label, .employer-filter-wrapper .candidate-filter .nstSlider .grip-label, .job-filter-wrapper .employer-filter .nstSlider .grip-label, .candidate-filter-wrapper .employer-filter .nstSlider .grip-label, .employer-filter-wrapper .employer-filter .nstSlider .grip-label {
   padding-top: 20px;
 }
 
-.job-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before,
-.candidate-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before,
-.employer-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before,
-.job-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:before,
-.candidate-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:before,
-.employer-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:before,
-.job-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:before,
-.candidate-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:before,
-.employer-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:before,
+.job-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before, .candidate-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before, .employer-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:before, .job-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:before, .candidate-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:before, .employer-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:before, .job-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:before, .candidate-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:before, .employer-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:before,
 .job-filter-wrapper .job-filter .nstSlider .grip-label .rightLabel:before,
 .candidate-filter-wrapper .job-filter .nstSlider .grip-label .rightLabel:before,
 .employer-filter-wrapper .job-filter .nstSlider .grip-label .rightLabel:before,
 .job-filter-wrapper .candidate-filter .nstSlider .grip-label .rightLabel:before,
-.candidate-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .rightLabel:before,
-.employer-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .rightLabel:before,
+.candidate-filter-wrapper .candidate-filter .nstSlider .grip-label .rightLabel:before,
+.employer-filter-wrapper .candidate-filter .nstSlider .grip-label .rightLabel:before,
 .job-filter-wrapper .employer-filter .nstSlider .grip-label .rightLabel:before,
-.candidate-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .rightLabel:before,
-.employer-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .rightLabel:before {
+.candidate-filter-wrapper .employer-filter .nstSlider .grip-label .rightLabel:before,
+.employer-filter-wrapper .employer-filter .nstSlider .grip-label .rightLabel:before {
   content: "$";
 }
 
-.job-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after,
-.candidate-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after,
-.employer-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after,
-.job-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:after,
-.candidate-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:after,
-.employer-filter-wrapper
-  .candidate-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:after,
-.job-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:after,
-.candidate-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:after,
-.employer-filter-wrapper
-  .employer-filter
-  .nstSlider
-  .grip-label
-  .leftLabel:after {
+.job-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after, .candidate-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after, .employer-filter-wrapper .job-filter .nstSlider .grip-label .leftLabel:after, .job-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:after, .candidate-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:after, .employer-filter-wrapper .candidate-filter .nstSlider .grip-label .leftLabel:after, .job-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:after, .candidate-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:after, .employer-filter-wrapper .employer-filter .nstSlider .grip-label .leftLabel:after {
   content: "-";
   padding-left: 8px;
   padding-right: 5px;
 }
 
-.job-filter-wrapper .job-filter .price-range-slider,
-.candidate-filter-wrapper .job-filter .price-range-slider,
-.employer-filter-wrapper .job-filter .price-range-slider,
-.job-filter-wrapper .candidate-filter .price-range-slider,
-.candidate-filter-wrapper .candidate-filter .price-range-slider,
-.employer-filter-wrapper .candidate-filter .price-range-slider,
-.job-filter-wrapper .employer-filter .price-range-slider,
-.candidate-filter-wrapper .employer-filter .price-range-slider,
-.employer-filter-wrapper .employer-filter .price-range-slider {
+.job-filter-wrapper .job-filter .price-range-slider, .candidate-filter-wrapper .job-filter .price-range-slider, .employer-filter-wrapper .job-filter .price-range-slider, .job-filter-wrapper .candidate-filter .price-range-slider, .candidate-filter-wrapper .candidate-filter .price-range-slider, .employer-filter-wrapper .candidate-filter .price-range-slider, .job-filter-wrapper .employer-filter .price-range-slider, .candidate-filter-wrapper .employer-filter .price-range-slider, .employer-filter-wrapper .employer-filter .price-range-slider {
   padding-bottom: 30px;
 }
 
-.job-filter-wrapper .job-filter-dropdown,
-.candidate-filter-wrapper .job-filter-dropdown,
-.employer-filter-wrapper .job-filter-dropdown,
-.job-filter-wrapper .candidate-filter-dropdown,
-.candidate-filter-wrapper .candidate-filter-dropdown,
-.employer-filter-wrapper .candidate-filter-dropdown,
-.job-filter-wrapper .employer-filter-dropdown,
-.candidate-filter-wrapper .employer-filter-dropdown,
-.employer-filter-wrapper .employer-filter-dropdown {
+.job-filter-wrapper .job-filter-dropdown, .candidate-filter-wrapper .job-filter-dropdown, .employer-filter-wrapper .job-filter-dropdown, .job-filter-wrapper .candidate-filter-dropdown, .candidate-filter-wrapper .candidate-filter-dropdown, .employer-filter-wrapper .candidate-filter-dropdown, .job-filter-wrapper .employer-filter-dropdown, .candidate-filter-wrapper .employer-filter-dropdown, .employer-filter-wrapper .employer-filter-dropdown {
   padding: 20px 30px 0 50px;
 }
 
-.job-filter-wrapper .job-filter-dropdown.same-pad,
-.candidate-filter-wrapper .job-filter-dropdown.same-pad,
-.employer-filter-wrapper .job-filter-dropdown.same-pad,
-.job-filter-wrapper .same-pad.candidate-filter-dropdown,
-.candidate-filter-wrapper .same-pad.candidate-filter-dropdown,
-.employer-filter-wrapper .same-pad.candidate-filter-dropdown,
-.job-filter-wrapper .same-pad.employer-filter-dropdown,
-.candidate-filter-wrapper .same-pad.employer-filter-dropdown,
-.employer-filter-wrapper .same-pad.employer-filter-dropdown {
+.job-filter-wrapper .job-filter-dropdown.same-pad, .candidate-filter-wrapper .job-filter-dropdown.same-pad, .employer-filter-wrapper .job-filter-dropdown.same-pad, .job-filter-wrapper .same-pad.candidate-filter-dropdown, .candidate-filter-wrapper .same-pad.candidate-filter-dropdown, .employer-filter-wrapper .same-pad.candidate-filter-dropdown, .job-filter-wrapper .same-pad.employer-filter-dropdown, .candidate-filter-wrapper .same-pad.employer-filter-dropdown, .employer-filter-wrapper .same-pad.employer-filter-dropdown {
   padding-left: 30px;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .employer-filter-wrapper .job-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .job-filter-wrapper .employer-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 100%;
 }
 
-.job-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus,
-.candidate-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus,
-.employer-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus,
-.job-filter-wrapper .candidate-filter-dropdown .dropdown.bootstrap-select:focus,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .dropdown.bootstrap-select:focus,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .dropdown.bootstrap-select:focus,
-.job-filter-wrapper .employer-filter-dropdown .dropdown.bootstrap-select:focus,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .dropdown.bootstrap-select:focus,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .dropdown.bootstrap-select:focus {
+.job-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus, .candidate-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus, .employer-filter-wrapper .job-filter-dropdown .dropdown.bootstrap-select:focus, .job-filter-wrapper .candidate-filter-dropdown .dropdown.bootstrap-select:focus, .candidate-filter-wrapper .candidate-filter-dropdown .dropdown.bootstrap-select:focus, .employer-filter-wrapper .candidate-filter-dropdown .dropdown.bootstrap-select:focus, .job-filter-wrapper .employer-filter-dropdown .dropdown.bootstrap-select:focus, .candidate-filter-wrapper .employer-filter-dropdown .dropdown.bootstrap-select:focus, .employer-filter-wrapper .employer-filter-dropdown .dropdown.bootstrap-select:focus {
   outline: none !important;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .btn-light:not(:disabled):not(.disabled):active:focus {
+.job-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .job-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .job-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .candidate-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .job-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus, .employer-filter-wrapper .employer-filter-dropdown .btn-light:not(:disabled):not(.disabled):active:focus {
   box-shadow: none;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle:focus {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .employer-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .job-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle:focus, .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle:focus {
   outline: none !important;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .employer-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .job-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
   font-size: 1.4rem;
   padding: 9px 0;
 }
 
-.job-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled),
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .btn:not(:disabled):not(.disabled),
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .btn:not(:disabled):not(.disabled) {
+.job-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled), .job-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .candidate-filter-dropdown .btn:not(:disabled):not(.disabled), .job-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled), .candidate-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled), .employer-filter-wrapper .employer-filter-dropdown .btn:not(:disabled):not(.disabled) {
   height: 40px;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  > .dropdown-toggle.bs-placeholder {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .employer-filter-wrapper .job-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .job-filter-wrapper .employer-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder, .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder {
   height: 40px;
   color: #6f7484;
 }
 
-.job-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .employer-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .job-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option, .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-toggle .filter-option {
   padding: 0;
 }
 
-.job-filter-wrapper .job-filter-dropdown .btn-light,
-.candidate-filter-wrapper .job-filter-dropdown .btn-light,
-.employer-filter-wrapper .job-filter-dropdown .btn-light,
-.job-filter-wrapper .candidate-filter-dropdown .btn-light,
-.candidate-filter-wrapper .candidate-filter-dropdown .btn-light,
-.employer-filter-wrapper .candidate-filter-dropdown .btn-light,
-.job-filter-wrapper .employer-filter-dropdown .btn-light,
-.candidate-filter-wrapper .employer-filter-dropdown .btn-light,
-.employer-filter-wrapper .employer-filter-dropdown .btn-light {
+.job-filter-wrapper .job-filter-dropdown .btn-light, .candidate-filter-wrapper .job-filter-dropdown .btn-light, .employer-filter-wrapper .job-filter-dropdown .btn-light, .job-filter-wrapper .candidate-filter-dropdown .btn-light, .candidate-filter-wrapper .candidate-filter-dropdown .btn-light, .employer-filter-wrapper .candidate-filter-dropdown .btn-light, .job-filter-wrapper .employer-filter-dropdown .btn-light, .candidate-filter-wrapper .employer-filter-dropdown .btn-light, .employer-filter-wrapper .employer-filter-dropdown .btn-light {
   background: transparent;
   border: 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.08);
 }
 
-.job-filter-wrapper .job-filter-dropdown .btn,
-.candidate-filter-wrapper .job-filter-dropdown .btn,
-.employer-filter-wrapper .job-filter-dropdown .btn,
-.job-filter-wrapper .candidate-filter-dropdown .btn,
-.candidate-filter-wrapper .candidate-filter-dropdown .btn,
-.employer-filter-wrapper .candidate-filter-dropdown .btn,
-.job-filter-wrapper .employer-filter-dropdown .btn,
-.candidate-filter-wrapper .employer-filter-dropdown .btn,
-.employer-filter-wrapper .employer-filter-dropdown .btn {
+.job-filter-wrapper .job-filter-dropdown .btn, .candidate-filter-wrapper .job-filter-dropdown .btn, .employer-filter-wrapper .job-filter-dropdown .btn, .job-filter-wrapper .candidate-filter-dropdown .btn, .candidate-filter-wrapper .candidate-filter-dropdown .btn, .employer-filter-wrapper .candidate-filter-dropdown .btn, .job-filter-wrapper .employer-filter-dropdown .btn, .candidate-filter-wrapper .employer-filter-dropdown .btn, .employer-filter-wrapper .employer-filter-dropdown .btn {
   padding: 0;
 }
 
-.job-filter-wrapper .job-filter-dropdown .dropdown-toggle::after,
-.candidate-filter-wrapper .job-filter-dropdown .dropdown-toggle::after,
-.employer-filter-wrapper .job-filter-dropdown .dropdown-toggle::after,
-.job-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after,
-.candidate-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after,
-.employer-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after,
-.job-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after,
-.candidate-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after,
-.employer-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after {
+.job-filter-wrapper .job-filter-dropdown .dropdown-toggle::after, .candidate-filter-wrapper .job-filter-dropdown .dropdown-toggle::after, .employer-filter-wrapper .job-filter-dropdown .dropdown-toggle::after, .job-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after, .candidate-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after, .employer-filter-wrapper .candidate-filter-dropdown .dropdown-toggle::after, .job-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after, .candidate-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after, .employer-filter-wrapper .employer-filter-dropdown .dropdown-toggle::after {
   position: absolute;
   top: 17px;
   right: 0;
 }
 
-.job-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-menu li a,
-.candidate-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.employer-filter-wrapper
-  .job-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.job-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.candidate-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.employer-filter-wrapper
-  .candidate-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.job-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.candidate-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a,
-.employer-filter-wrapper
-  .employer-filter-dropdown
-  .bootstrap-select
-  .dropdown-menu
-  li
-  a {
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-menu li a, .candidate-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-menu li a, .employer-filter-wrapper .job-filter-dropdown .bootstrap-select .dropdown-menu li a, .job-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-menu li a, .candidate-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-menu li a, .employer-filter-wrapper .candidate-filter-dropdown .bootstrap-select .dropdown-menu li a, .job-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-menu li a, .candidate-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-menu li a, .employer-filter-wrapper .employer-filter-dropdown .bootstrap-select .dropdown-menu li a {
   font-size: 1.4rem;
 }
 
-.job-filter-wrapper .selected-options,
-.candidate-filter-wrapper .selected-options,
-.employer-filter-wrapper .selected-options {
+.job-filter-wrapper .selected-options, .candidate-filter-wrapper .selected-options, .employer-filter-wrapper .selected-options {
   padding: 30px;
   padding-left: 50px;
   display: none;
   position: relative;
 }
 
-.job-filter-wrapper .selected-options.same-pad,
-.candidate-filter-wrapper .selected-options.same-pad,
-.employer-filter-wrapper .selected-options.same-pad {
+.job-filter-wrapper .selected-options.same-pad, .candidate-filter-wrapper .selected-options.same-pad, .employer-filter-wrapper .selected-options.same-pad {
   padding-left: 30px;
 }
 
-.job-filter-wrapper .selected-options.same-pad:before,
-.candidate-filter-wrapper .selected-options.same-pad:before,
-.employer-filter-wrapper .selected-options.same-pad:before {
+.job-filter-wrapper .selected-options.same-pad:before, .candidate-filter-wrapper .selected-options.same-pad:before, .employer-filter-wrapper .selected-options.same-pad:before {
   left: 30px;
 }
 
-.job-filter-wrapper .selected-options:before,
-.candidate-filter-wrapper .selected-options:before,
-.employer-filter-wrapper .selected-options:before {
+.job-filter-wrapper .selected-options:before, .candidate-filter-wrapper .selected-options:before, .employer-filter-wrapper .selected-options:before {
   position: absolute;
   bottom: 0;
   left: 50px;
@@ -2161,26 +1371,20 @@ a:focus {
   content: "";
 }
 
-.job-filter-wrapper .selected-options .selection-title,
-.candidate-filter-wrapper .selected-options .selection-title,
-.employer-filter-wrapper .selected-options .selection-title {
+.job-filter-wrapper .selected-options .selection-title, .candidate-filter-wrapper .selected-options .selection-title, .employer-filter-wrapper .selected-options .selection-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.job-filter-wrapper .selected-options .selection-title h4,
-.candidate-filter-wrapper .selected-options .selection-title h4,
-.employer-filter-wrapper .selected-options .selection-title h4 {
+.job-filter-wrapper .selected-options .selection-title h4, .candidate-filter-wrapper .selected-options .selection-title h4, .employer-filter-wrapper .selected-options .selection-title h4 {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   position: relative;
 }
 
-.job-filter-wrapper .selected-options .selection-title a,
-.candidate-filter-wrapper .selected-options .selection-title a,
-.employer-filter-wrapper .selected-options .selection-title a {
+.job-filter-wrapper .selected-options .selection-title a, .candidate-filter-wrapper .selected-options .selection-title a, .employer-filter-wrapper .selected-options .selection-title a {
   font-weight: 500;
   font-size: 1.2rem;
   padding: 5px 8px;
@@ -2190,141 +1394,63 @@ a:focus {
   line-height: 1.3;
 }
 
-.job-filter-wrapper .selected-options .filtered-options,
-.candidate-filter-wrapper .selected-options .filtered-options,
-.employer-filter-wrapper .selected-options .filtered-options {
+.job-filter-wrapper .selected-options .filtered-options, .candidate-filter-wrapper .selected-options .filtered-options, .employer-filter-wrapper .selected-options .filtered-options {
   padding: 0;
   padding-top: 20px;
   margin: 0;
   list-style: none;
 }
 
-.job-filter-wrapper .selected-options .filtered-options li + li,
-.candidate-filter-wrapper .selected-options .filtered-options li + li,
-.employer-filter-wrapper .selected-options .filtered-options li + li {
+.job-filter-wrapper .selected-options .filtered-options li + li, .candidate-filter-wrapper .selected-options .filtered-options li + li, .employer-filter-wrapper .selected-options .filtered-options li + li {
   margin-top: 5px;
 }
 
-.job-filter-wrapper .selected-options .filtered-options li,
-.candidate-filter-wrapper .selected-options .filtered-options li,
-.employer-filter-wrapper .selected-options .filtered-options li {
+.job-filter-wrapper .selected-options .filtered-options li, .candidate-filter-wrapper .selected-options .filtered-options li, .employer-filter-wrapper .selected-options .filtered-options li {
   color: #246df8;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.job-filter-wrapper .selected-options .filtered-options li span,
-.candidate-filter-wrapper .selected-options .filtered-options li span,
-.employer-filter-wrapper .selected-options .filtered-options li span {
+.job-filter-wrapper .selected-options .filtered-options li span, .candidate-filter-wrapper .selected-options .filtered-options li span, .employer-filter-wrapper .selected-options .filtered-options li span {
   font-size: 1rem;
   color: #f82447;
   cursor: pointer;
 }
 
-.filtered-job-listing-wrapper,
-.filtered-candidate-wrapper,
-.filtered-employer-wrapper {
+.filtered-job-listing-wrapper, .filtered-candidate-wrapper, .filtered-employer-wrapper {
   padding: 40px 30px;
   background: #ffffff;
 }
 
-.listing-with-map .job-listing-container .filtered-job-listing-wrapper,
-.listing-with-map .candidate-container .filtered-job-listing-wrapper,
-.listing-with-map .employer-container .filtered-job-listing-wrapper,
-.listing-with-map .job-listing-container .filtered-candidate-wrapper,
-.listing-with-map .candidate-container .filtered-candidate-wrapper,
-.listing-with-map .employer-container .filtered-candidate-wrapper,
-.listing-with-map .job-listing-container .filtered-employer-wrapper,
-.listing-with-map .candidate-container .filtered-employer-wrapper,
-.listing-with-map .employer-container .filtered-employer-wrapper {
+.listing-with-map .job-listing-container .filtered-job-listing-wrapper, .listing-with-map .candidate-container .filtered-job-listing-wrapper, .listing-with-map .employer-container .filtered-job-listing-wrapper, .listing-with-map .job-listing-container .filtered-candidate-wrapper, .listing-with-map .candidate-container .filtered-candidate-wrapper, .listing-with-map .employer-container .filtered-candidate-wrapper, .listing-with-map .job-listing-container .filtered-employer-wrapper, .listing-with-map .candidate-container .filtered-employer-wrapper, .listing-with-map .employer-container .filtered-employer-wrapper {
   width: calc(100% - 280px);
 }
 
-.listing-with-map
-  .job-listing-container
-  .filtered-job-listing-wrapper.change-padding,
-.listing-with-map
-  .candidate-container
-  .filtered-job-listing-wrapper.change-padding,
-.listing-with-map
-  .employer-container
-  .filtered-job-listing-wrapper.change-padding,
-.listing-with-map
-  .job-listing-container
-  .change-padding.filtered-candidate-wrapper,
-.listing-with-map
-  .candidate-container
-  .change-padding.filtered-candidate-wrapper,
-.listing-with-map
-  .employer-container
-  .change-padding.filtered-candidate-wrapper,
-.listing-with-map
-  .job-listing-container
-  .change-padding.filtered-employer-wrapper,
-.listing-with-map
-  .candidate-container
-  .change-padding.filtered-employer-wrapper,
-.listing-with-map
-  .employer-container
-  .change-padding.filtered-employer-wrapper {
+.listing-with-map .job-listing-container .filtered-job-listing-wrapper.change-padding, .listing-with-map .candidate-container .filtered-job-listing-wrapper.change-padding, .listing-with-map .employer-container .filtered-job-listing-wrapper.change-padding, .listing-with-map .job-listing-container .change-padding.filtered-candidate-wrapper, .listing-with-map .candidate-container .change-padding.filtered-candidate-wrapper, .listing-with-map .employer-container .change-padding.filtered-candidate-wrapper, .listing-with-map .job-listing-container .change-padding.filtered-employer-wrapper, .listing-with-map .candidate-container .change-padding.filtered-employer-wrapper, .listing-with-map .employer-container .change-padding.filtered-employer-wrapper {
   padding-left: 50px;
 }
 
-.listing-with-map .job-listing-container .job-filter-wrapper,
-.listing-with-map .candidate-container .job-filter-wrapper,
-.listing-with-map .employer-container .job-filter-wrapper,
-.listing-with-map .job-listing-container .candidate-filter-wrapper,
-.listing-with-map .candidate-container .candidate-filter-wrapper,
-.listing-with-map .employer-container .candidate-filter-wrapper,
-.listing-with-map .job-listing-container .employer-filter-wrapper,
-.listing-with-map .candidate-container .employer-filter-wrapper,
-.listing-with-map .employer-container .employer-filter-wrapper {
+.listing-with-map .job-listing-container .job-filter-wrapper, .listing-with-map .candidate-container .job-filter-wrapper, .listing-with-map .employer-container .job-filter-wrapper, .listing-with-map .job-listing-container .candidate-filter-wrapper, .listing-with-map .candidate-container .candidate-filter-wrapper, .listing-with-map .employer-container .candidate-filter-wrapper, .listing-with-map .job-listing-container .employer-filter-wrapper, .listing-with-map .candidate-container .employer-filter-wrapper, .listing-with-map .employer-container .employer-filter-wrapper {
   min-width: 280px;
 }
 
-.listing-with-map .job-listing-container .filtered-job-listing-wrapper,
-.listing-with-map .candidate-container .filtered-job-listing-wrapper,
-.listing-with-map .employer-container .filtered-job-listing-wrapper,
-.listing-with-map .job-listing-container .filtered-candidate-wrapper,
-.listing-with-map .candidate-container .filtered-candidate-wrapper,
-.listing-with-map .employer-container .filtered-candidate-wrapper,
-.listing-with-map .job-listing-container .filtered-employer-wrapper,
-.listing-with-map .candidate-container .filtered-employer-wrapper,
-.listing-with-map .employer-container .filtered-employer-wrapper {
+.listing-with-map .job-listing-container .filtered-job-listing-wrapper, .listing-with-map .candidate-container .filtered-job-listing-wrapper, .listing-with-map .employer-container .filtered-job-listing-wrapper, .listing-with-map .job-listing-container .filtered-candidate-wrapper, .listing-with-map .candidate-container .filtered-candidate-wrapper, .listing-with-map .employer-container .filtered-candidate-wrapper, .listing-with-map .job-listing-container .filtered-employer-wrapper, .listing-with-map .candidate-container .filtered-employer-wrapper, .listing-with-map .employer-container .filtered-employer-wrapper {
   padding-right: 50px;
 }
 
-.job-view-controller-wrapper,
-.candidate-view-controller-wrapper,
-.employer-view-controller-wrapper {
+.job-view-controller-wrapper, .candidate-view-controller-wrapper, .employer-view-controller-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
 }
 
-.job-view-controller-wrapper .job-view-controller,
-.candidate-view-controller-wrapper .job-view-controller,
-.employer-view-controller-wrapper .job-view-controller,
-.job-view-controller-wrapper .candidate-view-controller,
-.candidate-view-controller-wrapper .candidate-view-controller,
-.employer-view-controller-wrapper .candidate-view-controller,
-.job-view-controller-wrapper .employer-view-controller,
-.candidate-view-controller-wrapper .employer-view-controller,
-.employer-view-controller-wrapper .employer-view-controller {
+.job-view-controller-wrapper .job-view-controller, .candidate-view-controller-wrapper .job-view-controller, .employer-view-controller-wrapper .job-view-controller, .job-view-controller-wrapper .candidate-view-controller, .candidate-view-controller-wrapper .candidate-view-controller, .employer-view-controller-wrapper .candidate-view-controller, .job-view-controller-wrapper .employer-view-controller, .candidate-view-controller-wrapper .employer-view-controller, .employer-view-controller-wrapper .employer-view-controller {
   display: flex;
 }
 
-.job-view-controller-wrapper .job-view-controller .controller,
-.candidate-view-controller-wrapper .job-view-controller .controller,
-.employer-view-controller-wrapper .job-view-controller .controller,
-.job-view-controller-wrapper .candidate-view-controller .controller,
-.candidate-view-controller-wrapper .candidate-view-controller .controller,
-.employer-view-controller-wrapper .candidate-view-controller .controller,
-.job-view-controller-wrapper .employer-view-controller .controller,
-.candidate-view-controller-wrapper .employer-view-controller .controller,
-.employer-view-controller-wrapper .employer-view-controller .controller {
+.job-view-controller-wrapper .job-view-controller .controller, .candidate-view-controller-wrapper .job-view-controller .controller, .employer-view-controller-wrapper .job-view-controller .controller, .job-view-controller-wrapper .candidate-view-controller .controller, .candidate-view-controller-wrapper .candidate-view-controller .controller, .employer-view-controller-wrapper .candidate-view-controller .controller, .job-view-controller-wrapper .employer-view-controller .controller, .candidate-view-controller-wrapper .employer-view-controller .controller, .employer-view-controller-wrapper .employer-view-controller .controller {
   margin-right: 15px;
   height: 40px;
   width: 40px;
@@ -2337,60 +1463,27 @@ a:focus {
   transition: all 0.3s ease;
 }
 
-.job-view-controller-wrapper .job-view-controller .controller.active,
-.candidate-view-controller-wrapper .job-view-controller .controller.active,
-.employer-view-controller-wrapper .job-view-controller .controller.active,
-.job-view-controller-wrapper .candidate-view-controller .controller.active,
-.candidate-view-controller-wrapper
-  .candidate-view-controller
-  .controller.active,
-.employer-view-controller-wrapper .candidate-view-controller .controller.active,
-.job-view-controller-wrapper .employer-view-controller .controller.active,
-.candidate-view-controller-wrapper .employer-view-controller .controller.active,
-.employer-view-controller-wrapper .employer-view-controller .controller.active {
+.job-view-controller-wrapper .job-view-controller .controller.active, .candidate-view-controller-wrapper .job-view-controller .controller.active, .employer-view-controller-wrapper .job-view-controller .controller.active, .job-view-controller-wrapper .candidate-view-controller .controller.active, .candidate-view-controller-wrapper .candidate-view-controller .controller.active, .employer-view-controller-wrapper .candidate-view-controller .controller.active, .job-view-controller-wrapper .employer-view-controller .controller.active, .candidate-view-controller-wrapper .employer-view-controller .controller.active, .employer-view-controller-wrapper .employer-view-controller .controller.active {
   color: #246df8;
   border-color: rgba(36, 109, 248, 0.3);
 }
 
-.job-view-controller-wrapper .job-view-controller .controller svg,
-.candidate-view-controller-wrapper .job-view-controller .controller svg,
-.employer-view-controller-wrapper .job-view-controller .controller svg,
-.job-view-controller-wrapper .candidate-view-controller .controller svg,
-.candidate-view-controller-wrapper .candidate-view-controller .controller svg,
-.employer-view-controller-wrapper .candidate-view-controller .controller svg,
-.job-view-controller-wrapper .employer-view-controller .controller svg,
-.candidate-view-controller-wrapper .employer-view-controller .controller svg,
-.employer-view-controller-wrapper .employer-view-controller .controller svg {
+.job-view-controller-wrapper .job-view-controller .controller svg, .candidate-view-controller-wrapper .job-view-controller .controller svg, .employer-view-controller-wrapper .job-view-controller .controller svg, .job-view-controller-wrapper .candidate-view-controller .controller svg, .candidate-view-controller-wrapper .candidate-view-controller .controller svg, .employer-view-controller-wrapper .candidate-view-controller .controller svg, .job-view-controller-wrapper .employer-view-controller .controller svg, .candidate-view-controller-wrapper .employer-view-controller .controller svg, .employer-view-controller-wrapper .employer-view-controller .controller svg {
   height: 24px;
 }
 
-.job-view-controller-wrapper .showing-number span,
-.candidate-view-controller-wrapper .showing-number span,
-.employer-view-controller-wrapper .showing-number span {
+.job-view-controller-wrapper .showing-number span, .candidate-view-controller-wrapper .showing-number span, .employer-view-controller-wrapper .showing-number span {
   display: inline-block;
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 
-.job-view-filter
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.candidate-view-filter
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
-.employer-view-filter
-  .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.job-view-filter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .candidate-view-filter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn), .employer-view-filter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 150px;
 }
 
-.job-view-filter .bootstrap-select .dropdown-toggle .filter-option-inner-inner,
-.candidate-view-filter
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner,
-.employer-view-filter
-  .bootstrap-select
-  .dropdown-toggle
-  .filter-option-inner-inner {
+.job-view-filter .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .candidate-view-filter .bootstrap-select .dropdown-toggle .filter-option-inner-inner, .employer-view-filter .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
   font-size: 1.4rem;
   padding: 9px 15px;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -2398,59 +1491,41 @@ a:focus {
   box-shadow: none;
 }
 
-.job-view-filter .btn:not(:disabled):not(.disabled),
-.candidate-view-filter .btn:not(:disabled):not(.disabled),
-.employer-view-filter .btn:not(:disabled):not(.disabled) {
+.job-view-filter .btn:not(:disabled):not(.disabled), .candidate-view-filter .btn:not(:disabled):not(.disabled), .employer-view-filter .btn:not(:disabled):not(.disabled) {
   height: 40px;
 }
 
-.job-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder,
-.candidate-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder,
-.employer-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder {
+.job-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder, .candidate-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder, .employer-view-filter .bootstrap-select > .dropdown-toggle.bs-placeholder {
   height: 40px;
 }
 
-.job-view-filter .bootstrap-select .dropdown-toggle .filter-option,
-.candidate-view-filter .bootstrap-select .dropdown-toggle .filter-option,
-.employer-view-filter .bootstrap-select .dropdown-toggle .filter-option {
+.job-view-filter .bootstrap-select .dropdown-toggle .filter-option, .candidate-view-filter .bootstrap-select .dropdown-toggle .filter-option, .employer-view-filter .bootstrap-select .dropdown-toggle .filter-option {
   padding: 0;
 }
 
-.job-view-filter .btn,
-.candidate-view-filter .btn,
-.employer-view-filter .btn {
+.job-view-filter .btn, .candidate-view-filter .btn, .employer-view-filter .btn {
   padding: 0;
 }
 
-.job-view-filter .dropdown-toggle::after,
-.candidate-view-filter .dropdown-toggle::after,
-.employer-view-filter .dropdown-toggle::after {
+.job-view-filter .dropdown-toggle::after, .candidate-view-filter .dropdown-toggle::after, .employer-view-filter .dropdown-toggle::after {
   position: absolute;
   top: 17px;
   right: 15px;
 }
 
-.job-view-filter .dropdown.bootstrap-select:focus,
-.candidate-view-filter .dropdown.bootstrap-select:focus,
-.employer-view-filter .dropdown.bootstrap-select:focus {
+.job-view-filter .dropdown.bootstrap-select:focus, .candidate-view-filter .dropdown.bootstrap-select:focus, .employer-view-filter .dropdown.bootstrap-select:focus {
   outline: none !important;
 }
 
-.job-view-filter .btn-light:not(:disabled):not(.disabled):active:focus,
-.candidate-view-filter .btn-light:not(:disabled):not(.disabled):active:focus,
-.employer-view-filter .btn-light:not(:disabled):not(.disabled):active:focus {
+.job-view-filter .btn-light:not(:disabled):not(.disabled):active:focus, .candidate-view-filter .btn-light:not(:disabled):not(.disabled):active:focus, .employer-view-filter .btn-light:not(:disabled):not(.disabled):active:focus {
   box-shadow: none;
 }
 
-.job-view-filter .bootstrap-select .dropdown-toggle:focus,
-.candidate-view-filter .bootstrap-select .dropdown-toggle:focus,
-.employer-view-filter .bootstrap-select .dropdown-toggle:focus {
+.job-view-filter .bootstrap-select .dropdown-toggle:focus, .candidate-view-filter .bootstrap-select .dropdown-toggle:focus, .employer-view-filter .bootstrap-select .dropdown-toggle:focus {
   outline: none !important;
 }
 
-.job-view-filter .bootstrap-select .dropdown-menu li a,
-.candidate-view-filter .bootstrap-select .dropdown-menu li a,
-.employer-view-filter .bootstrap-select .dropdown-menu li a {
+.job-view-filter .bootstrap-select .dropdown-menu li a, .candidate-view-filter .bootstrap-select .dropdown-menu li a, .employer-view-filter .bootstrap-select .dropdown-menu li a {
   font-size: 1.4rem;
 }
 
@@ -2487,30 +1562,18 @@ a:focus {
 }
 
 @media all and (max-width: 1199px) {
-  .filtered-job-listing-wrapper,
-  .filtered-candidate-wrapper,
-  .filtered-employer-wrapper {
+  .filtered-job-listing-wrapper, .filtered-candidate-wrapper, .filtered-employer-wrapper {
     padding: 30px 20px;
     background: #ffffff;
   }
 }
 
 @media all and (max-width: 991px) {
-  .listing-with-map .job-listing-container .filtered-job-listing-wrapper,
-  .listing-with-map .candidate-container .filtered-job-listing-wrapper,
-  .listing-with-map .employer-container .filtered-job-listing-wrapper,
-  .listing-with-map .job-listing-container .filtered-candidate-wrapper,
-  .listing-with-map .candidate-container .filtered-candidate-wrapper,
-  .listing-with-map .employer-container .filtered-candidate-wrapper,
-  .listing-with-map .job-listing-container .filtered-employer-wrapper,
-  .listing-with-map .candidate-container .filtered-employer-wrapper,
-  .listing-with-map .employer-container .filtered-employer-wrapper {
+  .listing-with-map .job-listing-container .filtered-job-listing-wrapper, .listing-with-map .candidate-container .filtered-job-listing-wrapper, .listing-with-map .employer-container .filtered-job-listing-wrapper, .listing-with-map .job-listing-container .filtered-candidate-wrapper, .listing-with-map .candidate-container .filtered-candidate-wrapper, .listing-with-map .employer-container .filtered-candidate-wrapper, .listing-with-map .job-listing-container .filtered-employer-wrapper, .listing-with-map .candidate-container .filtered-employer-wrapper, .listing-with-map .employer-container .filtered-employer-wrapper {
     width: 100%;
     padding-right: 20px;
   }
-  .job-listing-container .job-search-wrapper,
-  .candidate-container .job-search-wrapper,
-  .employer-container .job-search-wrapper {
+  .job-listing-container .job-search-wrapper, .candidate-container .job-search-wrapper, .employer-container .job-search-wrapper {
     padding: 30px 20px;
   }
   .searchAndFilter input {
@@ -2520,8 +1583,7 @@ a:focus {
   .searchAndFilter .bootstrap-select {
     margin-bottom: 25px;
   }
-  .searchAndFilter
-    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .searchAndFilter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: calc(50% - 30px);
   }
   .searchAndFilter .bootstrap-select:nth-child(2) {
@@ -2531,8 +1593,7 @@ a:focus {
   .searchAndFilter .bootstrap-select:nth-child(3) {
     margin-right: 25px;
   }
-  .searchAndFilter
-    .bootstrap-select:nth-child(3):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .searchAndFilter .bootstrap-select:nth-child(3):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 50%;
   }
   .searchAndFilter-3 .search-form .keyword {
@@ -2579,8 +1640,7 @@ a:focus {
   .searchAndFilter input {
     width: 100%;
   }
-  .searchAndFilter
-    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .searchAndFilter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 100%;
   }
   .searchAndFilter .bootstrap-select:nth-child(2) {
@@ -2589,8 +1649,7 @@ a:focus {
   .searchAndFilter .bootstrap-select:nth-child(3) {
     margin-right: 0;
   }
-  .searchAndFilter
-    .bootstrap-select:nth-child(3):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .searchAndFilter .bootstrap-select:nth-child(3):not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 100%;
   }
   .searchAndFilter .button {
@@ -2650,7 +1709,7 @@ a:focus {
   outline: none;
   height: 50px;
   padding: 0;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .breadcrumb-form form input:focus {
@@ -2670,7 +1729,7 @@ a:focus {
   box-shadow: none;
   outline: none;
   color: rgba(36, 109, 248, 0.3);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   cursor: pointer;
 }
 
@@ -2702,14 +1761,14 @@ a:focus {
   right: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.08);
-  content: "";
+  content: '';
 }
 
 .categories .category {
   text-align: center;
   padding: 40px 10px;
   width: 20%;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .categories .category .icon {
@@ -2782,7 +1841,7 @@ a:focus {
     right: 0;
     height: 1px;
     background: rgba(0, 0, 0, 0.08);
-    content: "";
+    content: '';
   }
   .categories .category {
     width: 25%;
@@ -2814,7 +1873,7 @@ a:focus {
     right: 0;
     height: 1px;
     background: rgba(0, 0, 0, 0.08);
-    content: "";
+    content: '';
   }
   .categories .category {
     width: 33.33%;
@@ -2915,12 +1974,10 @@ a:focus {
 .listing-with-map:after {
   clear: both;
   display: block;
-  content: "";
+  content: '';
 }
 
-.listing-with-map .job-listing-container,
-.listing-with-map .candidate-container,
-.listing-with-map .employer-container {
+.listing-with-map .job-listing-container, .listing-with-map .candidate-container, .listing-with-map .employer-container {
   float: left;
 }
 
@@ -2933,42 +1990,22 @@ a:focus {
   bottom: 0;
 }
 
-.job-listing-container,
-.candidate-container,
-.employer-container {
+.job-listing-container, .candidate-container, .employer-container {
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
 
-.job-listing-container .job-filter-wrapper,
-.candidate-container .job-filter-wrapper,
-.employer-container .job-filter-wrapper,
-.job-listing-container .candidate-filter-wrapper,
-.candidate-container .candidate-filter-wrapper,
-.employer-container .candidate-filter-wrapper,
-.job-listing-container .employer-filter-wrapper,
-.candidate-container .employer-filter-wrapper,
-.employer-container .employer-filter-wrapper {
+.job-listing-container .job-filter-wrapper, .candidate-container .job-filter-wrapper, .employer-container .job-filter-wrapper, .job-listing-container .candidate-filter-wrapper, .candidate-container .candidate-filter-wrapper, .employer-container .candidate-filter-wrapper, .job-listing-container .employer-filter-wrapper, .candidate-container .employer-filter-wrapper, .employer-container .employer-filter-wrapper {
   min-width: 240px;
 }
 
-.job-listing-container .filtered-job-listing-wrapper,
-.candidate-container .filtered-job-listing-wrapper,
-.employer-container .filtered-job-listing-wrapper,
-.job-listing-container .filtered-candidate-wrapper,
-.candidate-container .filtered-candidate-wrapper,
-.employer-container .filtered-candidate-wrapper,
-.job-listing-container .filtered-employer-wrapper,
-.candidate-container .filtered-employer-wrapper,
-.employer-container .filtered-employer-wrapper {
+.job-listing-container .filtered-job-listing-wrapper, .candidate-container .filtered-job-listing-wrapper, .employer-container .filtered-job-listing-wrapper, .job-listing-container .filtered-candidate-wrapper, .candidate-container .filtered-candidate-wrapper, .employer-container .filtered-candidate-wrapper, .job-listing-container .filtered-employer-wrapper, .candidate-container .filtered-employer-wrapper, .employer-container .filtered-employer-wrapper {
   width: calc(100% - 240px);
 }
 
-.job-listing-container .job-search-wrapper,
-.candidate-container .job-search-wrapper,
-.employer-container .job-search-wrapper {
+.job-listing-container .job-search-wrapper, .candidate-container .job-search-wrapper, .employer-container .job-search-wrapper {
   width: 100%;
   flex-break: after;
 }
@@ -3011,7 +2048,7 @@ a:focus {
   position: absolute;
   top: 5px;
   left: 5px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .sidebar-controller label {
@@ -3038,7 +2075,7 @@ a:focus {
   box-shadow: none;
   outline: none;
   border-bottom: 2px solid rgba(36, 109, 248, 0.2);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   border-radius: 0;
 }
 
@@ -3059,7 +2096,7 @@ a:focus {
   border: 0;
   box-shadow: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   outline: none;
 }
 
@@ -3089,124 +2126,55 @@ a:focus {
   color: #515666;
 }
 
-.job-tab .nav-item a.active,
-.job-tab .nav-item a:hover {
+.job-tab .nav-item a.active, .job-tab .nav-item a:hover {
   background: transparent;
   border: 2px solid rgba(36, 109, 248, 0.15);
   border-bottom: 2px solid rgba(36, 109, 248, 0.15);
   color: #246df8;
 }
 
-.job-filter-result .job-list,
-.candidate-filter-result .job-list,
-.employer-filter-result .job-list {
+.job-filter-result .job-list, .candidate-filter-result .job-list, .employer-filter-result .job-list {
   padding: 30px 20px;
 }
 
-.job-filter-result.grid,
-.grid.candidate-filter-result,
-.grid.employer-filter-result {
+.job-filter-result.grid, .grid.candidate-filter-result, .grid.employer-filter-result {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.job-filter-result.grid .job-list,
-.grid.candidate-filter-result .job-list,
-.grid.employer-filter-result .job-list {
+.job-filter-result.grid .job-list, .grid.candidate-filter-result .job-list, .grid.employer-filter-result .job-list {
   width: calc(50% - 10px);
 }
 
-.listing-with-map .job-filter-result.grid,
-.listing-with-map .grid.candidate-filter-result,
-.listing-with-map .grid.employer-filter-result {
+.listing-with-map .job-filter-result.grid, .listing-with-map .grid.candidate-filter-result, .listing-with-map .grid.employer-filter-result {
   display: block;
 }
 
-.listing-with-map .job-filter-result.grid .job-list,
-.listing-with-map .grid.candidate-filter-result .job-list,
-.listing-with-map .grid.employer-filter-result .job-list {
+.listing-with-map .job-filter-result.grid .job-list, .listing-with-map .grid.candidate-filter-result .job-list, .listing-with-map .grid.employer-filter-result .job-list {
   width: 100%;
 }
 
-.listing-with-map .job-filter-result.grid .job-list.half-grid .body,
-.listing-with-map .grid.candidate-filter-result .job-list.half-grid .body,
-.listing-with-map .grid.employer-filter-result .job-list.half-grid .body {
+.listing-with-map .job-filter-result.grid .job-list.half-grid .body, .listing-with-map .grid.candidate-filter-result .job-list.half-grid .body, .listing-with-map .grid.employer-filter-result .job-list.half-grid .body {
   display: block;
 }
 
-.listing-with-map .job-filter-result.grid .job-list.half-grid .body .more,
-.listing-with-map .grid.candidate-filter-result .job-list.half-grid .body .more,
-.listing-with-map .grid.employer-filter-result .job-list.half-grid .body .more {
+.listing-with-map .job-filter-result.grid .job-list.half-grid .body .more, .listing-with-map .grid.candidate-filter-result .job-list.half-grid .body .more, .listing-with-map .grid.employer-filter-result .job-list.half-grid .body .more {
   display: block;
   visibility: visible;
   margin-top: 15px;
 }
 
-.listing-with-map
-  .job-filter-result.grid
-  .job-list.half-grid
-  .body
-  .more
-  .buttons,
-.listing-with-map
-  .grid.candidate-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .buttons,
-.listing-with-map
-  .grid.employer-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .buttons {
+.listing-with-map .job-filter-result.grid .job-list.half-grid .body .more .buttons, .listing-with-map .grid.candidate-filter-result .job-list.half-grid .body .more .buttons, .listing-with-map .grid.employer-filter-result .job-list.half-grid .body .more .buttons {
   display: block;
 }
 
-.listing-with-map
-  .job-filter-result.grid
-  .job-list.half-grid
-  .body
-  .more
-  .buttons
-  .button,
-.listing-with-map
-  .grid.candidate-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .buttons
-  .button,
-.listing-with-map
-  .grid.employer-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .buttons
-  .button {
+.listing-with-map .job-filter-result.grid .job-list.half-grid .body .more .buttons .button, .listing-with-map .grid.candidate-filter-result .job-list.half-grid .body .more .buttons .button, .listing-with-map .grid.employer-filter-result .job-list.half-grid .body .more .buttons .button {
   margin-left: 0;
   margin-right: 10px;
 }
 
-.listing-with-map
-  .job-filter-result.grid
-  .job-list.half-grid
-  .body
-  .more
-  .deadline,
-.listing-with-map
-  .grid.candidate-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .deadline,
-.listing-with-map
-  .grid.employer-filter-result
-  .job-list.half-grid
-  .body
-  .more
-  .deadline {
+.listing-with-map .job-filter-result.grid .job-list.half-grid .body .more .deadline, .listing-with-map .grid.candidate-filter-result .job-list.half-grid .body .more .deadline, .listing-with-map .grid.employer-filter-result .job-list.half-grid .body .more .deadline {
   text-align: left;
 }
 
@@ -3222,7 +2190,7 @@ a:focus {
 .job-list {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   width: 100%;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   display: flex;
   padding: 30px;
   align-items: center;
@@ -3322,14 +2290,12 @@ a:focus {
   border-radius: 50%;
 }
 
-.job-list .body .more .buttons .favourite:hover,
-.job-list .body .more .buttons .favourite.active {
+.job-list .body .more .buttons .favourite:hover, .job-list .body .more .buttons .favourite.active {
   color: #ff8fa6;
   border-color: #ff8fa6;
 }
 
-.job-list .body .more .buttons .favourite:hover svg,
-.job-list .body .more .buttons .favourite.active svg {
+.job-list .body .more .buttons .favourite:hover svg, .job-list .body .more .buttons .favourite.active svg {
   color: #ff8fa6;
 }
 
@@ -3488,7 +2454,7 @@ a:focus {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 50%;
   color: #6f7484;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   outline: none;
 }
 
@@ -3500,12 +2466,7 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .form-group
-  .form-control {
+.apply-popup .modal-dialog .modal-content .modal-body .form-group .form-control {
   height: 50px;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -3515,12 +2476,7 @@ a:focus {
   font-size: 1.4rem;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .form-group
-  textarea.form-control {
+.apply-popup .modal-dialog .modal-content .modal-body .form-group textarea.form-control {
   height: 100px;
 }
 
@@ -3538,23 +2494,11 @@ a:focus {
   cursor: pointer;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .file-input-wrap
-  label
-  input {
+.apply-popup .modal-dialog .modal-content .modal-body .file-input-wrap label input {
   display: none;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .file-input-wrap
-  label
-  svg {
+.apply-popup .modal-dialog .modal-content .modal-body .file-input-wrap label svg {
   display: block;
   height: 20px;
   width: 20px;
@@ -3562,25 +2506,12 @@ a:focus {
   margin: 0 auto;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .file-input-wrap
-  label
-  span {
+.apply-popup .modal-dialog .modal-content .modal-body .file-input-wrap label span {
   color: #6f7484;
   font-size: 1.4rem;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .file-input-wrap
-  label
-  span
-  span {
+.apply-popup .modal-dialog .modal-content .modal-body .file-input-wrap label span span {
   font-size: 1.2rem;
   color: #aaaaaa;
 }
@@ -3598,13 +2529,7 @@ a:focus {
   border-radius: 5px;
 }
 
-.apply-popup
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .more-option
-  label
-  .dot:before {
+.apply-popup .modal-dialog .modal-content .modal-body .more-option label .dot:before {
   border-radius: 2px;
 }
 
@@ -3765,8 +2690,8 @@ a:focus {
 .edication-and-experience ul li:before,
 .other-benifit ul li:before {
   position: absolute;
-  content: "\f058";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f058';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   color: #aaa;
   top: 2px;
@@ -4035,7 +2960,7 @@ a:focus {
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 0;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   outline: none;
   font-size: 1.4rem;
   box-shadow: none;
@@ -4269,10 +3194,7 @@ a:focus {
   box-shadow: none !important;
 }
 
-.mce-btn.mce-active button,
-.mce-btn.mce-active:hover button,
-.mce-btn.mce-active i,
-.mce-btn.mce-active:hover i {
+.mce-btn.mce-active button, .mce-btn.mce-active:hover button, .mce-btn.mce-active i, .mce-btn.mce-active:hover i {
   color: #246df8 !important;
 }
 
@@ -4308,13 +3230,13 @@ a:focus {
 
 .post-sidebar .sidebar-menu li:before {
   position: absolute;
-  content: "";
+  content: '';
   bottom: 0;
   left: 0;
   height: 1px;
   width: 0;
   background: rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .post-sidebar .sidebar-menu li i {
@@ -4466,9 +3388,7 @@ a:focus {
     overflow: hidden;
     position: static;
   }
-  .listing-with-map .job-listing-container,
-  .listing-with-map .candidate-container,
-  .listing-with-map .employer-container {
+  .listing-with-map .job-listing-container, .listing-with-map .candidate-container, .listing-with-map .employer-container {
     width: 100%;
   }
   .sidebar-controller {
@@ -4481,47 +3401,19 @@ a:focus {
   .job-list {
     padding: 30px 20px;
   }
-  .job-listing-container,
-  .candidate-container,
-  .employer-container {
+  .job-listing-container, .candidate-container, .employer-container {
     display: block;
   }
-  .job-listing-container .filtered-job-listing-wrapper,
-  .candidate-container .filtered-job-listing-wrapper,
-  .employer-container .filtered-job-listing-wrapper,
-  .job-listing-container .filtered-candidate-wrapper,
-  .candidate-container .filtered-candidate-wrapper,
-  .employer-container .filtered-candidate-wrapper,
-  .job-listing-container .filtered-employer-wrapper,
-  .candidate-container .filtered-employer-wrapper,
-  .employer-container .filtered-employer-wrapper {
+  .job-listing-container .filtered-job-listing-wrapper, .candidate-container .filtered-job-listing-wrapper, .employer-container .filtered-job-listing-wrapper, .job-listing-container .filtered-candidate-wrapper, .candidate-container .filtered-candidate-wrapper, .employer-container .filtered-candidate-wrapper, .job-listing-container .filtered-employer-wrapper, .candidate-container .filtered-employer-wrapper, .employer-container .filtered-employer-wrapper {
     width: 100%;
   }
-  .job-listing-container .job-filter-wrapper,
-  .candidate-container .job-filter-wrapper,
-  .employer-container .job-filter-wrapper,
-  .job-listing-container .candidate-filter-wrapper,
-  .candidate-container .candidate-filter-wrapper,
-  .employer-container .candidate-filter-wrapper,
-  .job-listing-container .employer-filter-wrapper,
-  .candidate-container .employer-filter-wrapper,
-  .employer-container .employer-filter-wrapper {
+  .job-listing-container .job-filter-wrapper, .candidate-container .job-filter-wrapper, .employer-container .job-filter-wrapper, .job-listing-container .candidate-filter-wrapper, .candidate-container .candidate-filter-wrapper, .employer-container .candidate-filter-wrapper, .job-listing-container .employer-filter-wrapper, .candidate-container .employer-filter-wrapper, .employer-container .employer-filter-wrapper {
     width: 100%;
   }
-  .listing-with-map .job-listing-container,
-  .listing-with-map .candidate-container,
-  .listing-with-map .employer-container {
+  .listing-with-map .job-listing-container, .listing-with-map .candidate-container, .listing-with-map .employer-container {
     display: block;
   }
-  .listing-with-map .job-listing-container .job-filter-wrapper,
-  .listing-with-map .candidate-container .job-filter-wrapper,
-  .listing-with-map .employer-container .job-filter-wrapper,
-  .listing-with-map .job-listing-container .candidate-filter-wrapper,
-  .listing-with-map .candidate-container .candidate-filter-wrapper,
-  .listing-with-map .employer-container .candidate-filter-wrapper,
-  .listing-with-map .job-listing-container .employer-filter-wrapper,
-  .listing-with-map .candidate-container .employer-filter-wrapper,
-  .listing-with-map .employer-container .employer-filter-wrapper {
+  .listing-with-map .job-listing-container .job-filter-wrapper, .listing-with-map .candidate-container .job-filter-wrapper, .listing-with-map .employer-container .job-filter-wrapper, .listing-with-map .job-listing-container .candidate-filter-wrapper, .listing-with-map .candidate-container .candidate-filter-wrapper, .listing-with-map .employer-container .candidate-filter-wrapper, .listing-with-map .job-listing-container .employer-filter-wrapper, .listing-with-map .candidate-container .employer-filter-wrapper, .listing-with-map .employer-container .employer-filter-wrapper {
     width: 100%;
   }
   .information-and-share {
@@ -4563,15 +3455,7 @@ a:focus {
   .job-list .body .more .deadline {
     text-align: left;
   }
-  .job-view-controller-wrapper .job-view-controller .controller,
-  .candidate-view-controller-wrapper .job-view-controller .controller,
-  .employer-view-controller-wrapper .job-view-controller .controller,
-  .job-view-controller-wrapper .candidate-view-controller .controller,
-  .candidate-view-controller-wrapper .candidate-view-controller .controller,
-  .employer-view-controller-wrapper .candidate-view-controller .controller,
-  .job-view-controller-wrapper .employer-view-controller .controller,
-  .candidate-view-controller-wrapper .employer-view-controller .controller,
-  .employer-view-controller-wrapper .employer-view-controller .controller {
+  .job-view-controller-wrapper .job-view-controller .controller, .candidate-view-controller-wrapper .job-view-controller .controller, .employer-view-controller-wrapper .job-view-controller .controller, .job-view-controller-wrapper .candidate-view-controller .controller, .candidate-view-controller-wrapper .candidate-view-controller .controller, .employer-view-controller-wrapper .candidate-view-controller .controller, .job-view-controller-wrapper .employer-view-controller .controller, .candidate-view-controller-wrapper .employer-view-controller .controller, .employer-view-controller-wrapper .employer-view-controller .controller {
     display: none;
     visibility: hidden;
   }
@@ -4613,14 +3497,10 @@ a:focus {
   .job-list .body .content .info span {
     margin-right: 10px;
   }
-  .job-view-controller-wrapper,
-  .candidate-view-controller-wrapper,
-  .employer-view-controller-wrapper {
+  .job-view-controller-wrapper, .candidate-view-controller-wrapper, .employer-view-controller-wrapper {
     display: block;
   }
-  .job-view-controller-wrapper .showing-number,
-  .candidate-view-controller-wrapper .showing-number,
-  .employer-view-controller-wrapper .showing-number {
+  .job-view-controller-wrapper .showing-number, .candidate-view-controller-wrapper .showing-number, .employer-view-controller-wrapper .showing-number {
     margin-top: 20px;
   }
 }
@@ -4673,13 +3553,13 @@ a:focus {
   bottom: 0;
   width: 1px;
   background: rgba(0, 0, 0, 0.08);
-  content: "";
+  content: '';
 }
 
 .candidate {
   display: flex;
   padding: 30px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -4932,7 +3812,7 @@ a:focus {
 
 .edication-background .education-label:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 10px;
   width: 10px;
   border-radius: 50%;
@@ -4974,7 +3854,7 @@ a:focus {
 
 .experience .experience-section:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 10px;
   width: 10px;
   border-radius: 50%;
@@ -5027,8 +3907,8 @@ a:focus {
 
 .special-qualification ul li:before {
   position: absolute;
-  content: "\f058";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f058';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   top: 3px;
   left: 0;
@@ -5085,7 +3965,7 @@ a:focus {
   top: 0;
   left: 0;
   width: 100%;
-  content: "";
+  content: '';
   background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0));
 }
 
@@ -5095,17 +3975,13 @@ a:focus {
   background-image: transparent;
 }
 
-.portfolio-slider
-  .owl-item.active
-  + .owl-item.active
-  + .owl-item.active
-  .portfolio-item:before {
+.portfolio-slider .owl-item.active + .owl-item.active + .owl-item.active .portfolio-item:before {
   position: absolute;
   height: 100%;
   top: 0;
   right: 0;
   width: 100%;
-  content: "";
+  content: '';
   background-image: linear-gradient(to left, white, rgba(255, 255, 255, 0));
 }
 
@@ -5278,7 +4154,7 @@ a:focus {
   border: 0;
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   border-radius: 0;
   font-size: 1.4rem;
 }
@@ -5341,7 +4217,7 @@ a:focus {
 
 .post-content-wrapper .input-group-prepend .dropdown-label:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 10px;
   bottom: 10px;
   right: 0;
@@ -5571,7 +4447,7 @@ a:focus {
   padding: 30px 10px;
   margin-bottom: 30px;
   text-align: center;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .company-wrap .thumb {
@@ -5632,7 +4508,7 @@ a:focus {
   font-size: 1.8rem;
   outline: none;
   color: rgba(36, 109, 248, 0.4);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .company-carousel .owl-nav button.owl-next:hover,
@@ -5703,7 +4579,7 @@ a:focus {
   position: absolute;
   top: 11px;
   left: 15px;
-  content: "";
+  content: '';
 }
 
 .app-download .app-download-button a:hover {
@@ -5908,21 +4784,13 @@ header .absolute-nav {
   outline: none !important;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-button {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button {
   font-size: 1.3rem;
   position: relative;
   padding-right: 8px;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-button:after {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button:after {
   position: absolute;
   top: -14px;
   right: -7px;
@@ -5930,28 +4798,20 @@ header .absolute-nav {
   width: 4px;
   border-radius: 5px;
   background: #ffffff;
-  content: "";
+  content: '';
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-button:before {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button:before {
   position: absolute;
   top: -15px;
   left: -2px;
   content: "\e6b8";
-  font-family: "themify";
+  font-family: 'themify';
   font-size: 1.4rem;
   color: #ffffff;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card {
   position: absolute;
   top: 30px;
   right: 0;
@@ -5962,12 +4822,7 @@ header .absolute-nav {
   border-radius: 3px;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-head {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-head {
   padding: 10px 20px;
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
@@ -5977,33 +4832,16 @@ header .absolute-nav {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-head
-  a {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-head a {
   padding: 0;
   color: #aaa;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-head
-  a:hover {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-head a:hover {
   color: #246df8;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body {
   padding: 20px;
   max-height: 320px;
   overflow-x: hidden;
@@ -6014,133 +4852,65 @@ header .absolute-nav {
   /* Set Scrollbar Handle */
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body::-webkit-scrollbar {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar {
   width: 8px;
   background: #f3f3f3;
   right: 20px;
   border-radius: 5px;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body::-webkit-scrollbar-track {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar-track {
   border-radius: 5px;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body::-webkit-scrollbar-thumb {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #dbe0e9;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list {
   padding: 10px 0;
   padding-left: 30px;
   position: relative;
   display: block;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list
-  i {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list i {
   position: absolute;
   top: 14px;
   left: 0;
   color: rgba(1, 209, 61, 0.5);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list
-  p {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list p {
   margin-bottom: 0;
   color: #6f7484;
   line-height: 1.3;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list
-  p
-  span {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list p span {
   font-size: 1.4rem;
   font-style: normal;
   color: #246df8;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list
-  span {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list span {
   color: #aaafcb;
   font-size: 1.3rem;
   font-style: italic;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-body
-  .notification-list:hover
-  i {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-body .notification-list:hover i {
   color: #01d13d;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-footer {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-footer {
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-footer
-  a {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-footer a {
   padding: 10px 20px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -6148,13 +4918,7 @@ header .absolute-nav {
   color: #aaa;
 }
 
-.cp-nav
-  .navbar-collapse
-  .navbar-nav.account-nav
-  .header-top-notification
-  .notification-card
-  .notification-footer
-  a:hover {
+.cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card .notification-footer a:hover {
   color: #246df8;
 }
 
@@ -6174,7 +4938,7 @@ header .absolute-nav {
 .header-top-account .account-button:before,
 .header-top-account > button:before {
   content: "\e602";
-  font-family: "themify";
+  font-family: 'themify';
   margin-right: 6px;
 }
 
@@ -6244,7 +5008,7 @@ header .absolute-nav {
 .header-top-account .account-card .account-item-list li a span {
   margin-right: 10px;
   color: #aaa;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .header-top-account .account-card .account-item-list li a:hover {
@@ -6257,7 +5021,7 @@ header .absolute-nav {
 
 .header-top-account.login-modals a:before,
 .header-top-account.login-modals button:before {
-  content: "";
+  content: '';
   height: 0;
   width: 0;
 }
@@ -6351,12 +5115,11 @@ header .absolute-nav {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 50%;
   color: #6f7484;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   outline: none;
 }
 
-.account-entry .modal-header .close:focus,
-.account-entry .modal-header .close:hover {
+.account-entry .modal-header .close:focus, .account-entry .modal-header .close:hover {
   color: #246df8;
 }
 
@@ -6414,12 +5177,7 @@ header .absolute-nav {
   display: block;
 }
 
-.account-entry
-  .modal-body
-  .account-type
-  label
-  input[type="radio"]:checked
-  + span {
+.account-entry .modal-body .account-type label input[type="radio"]:checked + span {
   color: #246df8;
   background: rgba(36, 109, 248, 0.2);
   border-color: transparent;
@@ -6566,39 +5324,21 @@ header .absolute-nav {
     top: 100%;
     left: 0;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown-menu {
+  .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown-menu {
     top: 0;
     left: 100%;
     right: auto;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown-menu
-    .dropdown-menu
-    .dropdown-menu {
+  .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown-menu .dropdown-menu .dropdown-menu {
     left: auto;
     right: 100%;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown
-    a:after {
+  .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown a:after {
     right: 20px;
     top: 20px;
   }
   .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu {
-    transition: all 0.3s ease;
+    transition: all .3s ease;
     min-width: 210px;
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 3px;
@@ -6606,12 +5346,7 @@ header .absolute-nav {
   .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li {
     margin-left: 0;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    li:last-child {
+  .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li:last-child {
     border-bottom: 0;
   }
   .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li a {
@@ -6629,11 +5364,7 @@ header .absolute-nav {
     visibility: hidden;
     opacity: 0;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.main-nav
-    li.dropdown:hover
-    > .dropdown-menu {
+  .cp-nav .navbar-collapse .navbar-nav.main-nav li.dropdown:hover > .dropdown-menu {
     opacity: 1;
     visibility: visible;
   }
@@ -6685,13 +5416,7 @@ header .absolute-nav {
     margin: 0;
     list-style: none;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    h5 {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by h5 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
@@ -6699,110 +5424,45 @@ header .absolute-nav {
     color: #515666;
     margin-bottom: 20px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul {
     padding: 0;
     margin: 0;
     list-style: none;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li {
     min-width: 220px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li
-    a {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li a {
     padding: 0;
     color: #6f7484;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li
-    a:hover {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li a:hover {
     color: #246df8;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li
-    a:hover
-    span {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li a:hover span {
     color: #246df8;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li
-    a
-    span {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li a span {
     color: #aaaaaa;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by
-    ul
-    li
-    + li {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by ul li + li {
     margin-top: 12px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by:first-child {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by:first-child {
     position: relative;
     margin-right: 30px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.job-browse
-    li
-    .dropdown-menu
-    .search-by:first-child:before {
+  .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu .search-by:first-child:before {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     width: 1px;
     background: rgba(0, 0, 0, 0.08);
-    content: "";
+    content: '';
   }
   .cp-nav .navbar-collapse .navbar-nav.job-browse li .dropdown-menu.show {
     visibility: visible;
@@ -6833,7 +5493,7 @@ header .absolute-nav {
   }
   .header-top .top-nav .header-top-notification .notification-button:before {
     content: "\e6b8";
-    font-family: "themify";
+    font-family: 'themify';
     margin-right: 5px;
   }
   .header-top .top-nav .header-top-notification .notification-card {
@@ -6847,11 +5507,7 @@ header .absolute-nav {
     border-radius: 3px;
     z-index: 99;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-head {
+  .header-top .top-nav .header-top-notification .notification-card .notification-head {
     padding: 10px 20px;
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
@@ -6860,28 +5516,14 @@ header .absolute-nav {
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-head
-    a {
+  .header-top .top-nav .header-top-notification .notification-card .notification-head a {
     padding: 0;
     color: #aaa;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-head
-    a:hover {
+  .header-top .top-nav .header-top-notification .notification-card .notification-head a:hover {
     color: #246df8;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body {
     padding: 20px;
     max-height: 320px;
     overflow-x: hidden;
@@ -6891,124 +5533,62 @@ header .absolute-nav {
     /* Set Scrollbar Track */
     /* Set Scrollbar Handle */
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body::-webkit-scrollbar {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar {
     width: 8px;
     background: #f3f3f3;
     right: 20px;
     border-radius: 5px;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body::-webkit-scrollbar-track {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar-track {
     border-radius: 5px;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body::-webkit-scrollbar-thumb {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: #dbe0e9;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list {
     padding: 10px 0;
     padding-left: 30px;
     position: relative;
     display: block;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list
-    i {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list i {
     position: absolute;
     top: 14px;
     left: 0;
     color: rgba(1, 209, 61, 0.5);
-    transition: all 0.3s ease;
+    transition: all .3s ease;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list
-    p {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list p {
     margin-bottom: 0;
     color: #6f7484;
     line-height: 1.3;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list
-    p
-    span {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list p span {
     font-size: 1.4rem;
     font-style: normal;
     color: #246df8;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list
-    span {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list span {
     color: #aaafcb;
     font-size: 1.3rem;
     font-style: italic;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-body
-    .notification-list:hover
-    i {
+  .header-top .top-nav .header-top-notification .notification-card .notification-body .notification-list:hover i {
     color: #01d13d;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-footer {
+  .header-top .top-nav .header-top-notification .notification-card .notification-footer {
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-footer
-    a {
+  .header-top .top-nav .header-top-notification .notification-card .notification-footer a {
     padding: 10px 20px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 1.3rem;
     color: #aaa;
   }
-  .header-top
-    .top-nav
-    .header-top-notification
-    .notification-card
-    .notification-footer
-    a:hover {
+  .header-top .top-nav .header-top-notification .notification-card .notification-footer a:hover {
     color: #246df8;
   }
   .header-top .top-nav .login-modals {
@@ -7037,34 +5617,16 @@ header .absolute-nav {
     top: 100%;
     left: 0;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown-menu {
+  .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown-menu {
     top: 0;
     left: 100%;
     right: auto;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown-menu
-    .dropdown-menu
-    .dropdown-menu {
+  .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown-menu .dropdown-menu .dropdown-menu {
     left: auto;
     right: 100%;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    .dropdown
-    a:after {
+  .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu .dropdown a:after {
     right: 20px;
     top: 17px;
   }
@@ -7073,7 +5635,7 @@ header .absolute-nav {
     opacity: 1;
   }
   .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu {
-    transition: all 0.3s ease;
+    transition: all .3s ease;
     min-width: 210px;
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 3px;
@@ -7082,12 +5644,7 @@ header .absolute-nav {
     margin-right: 0;
     margin-left: 0;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav
-    li.dropdown
-    .dropdown-menu
-    li:last-child {
+  .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li:last-child {
     border-bottom: 0;
   }
   .cp-nav-2 .navbar-collapse .navbar-nav li.dropdown .dropdown-menu li a {
@@ -7104,11 +5661,7 @@ header .absolute-nav {
     visibility: hidden;
     opacity: 0;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav.main-nav
-    li.dropdown:hover
-    > .dropdown-menu {
+  .cp-nav-2 .navbar-collapse .navbar-nav.main-nav li.dropdown:hover > .dropdown-menu {
     opacity: 1;
     visibility: visible;
   }
@@ -7125,23 +5678,15 @@ header .absolute-nav {
   .cp-nav-2 .navbar-collapse .navbar-nav.account-nav li:first-child {
     margin-left: 0;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav.account-nav
-    li.dropdown
-    .dropdown-menu {
+  .cp-nav-2 .navbar-collapse .navbar-nav.account-nav li.dropdown .dropdown-menu {
     left: auto;
     right: 0;
   }
   .cp-nav-2 .navbar-collapse .navbar-nav.account-nav li.nav-notification a {
     padding-right: 0;
   }
-  .cp-nav-2
-    .navbar-collapse
-    .navbar-nav.account-nav
-    li.nav-notification
-    a:after {
-    content: "";
+  .cp-nav-2 .navbar-collapse .navbar-nav.account-nav li.nav-notification a:after {
+    content: '';
     height: 0;
     width: 0;
     border-top: 0;
@@ -7161,34 +5706,18 @@ header .absolute-nav {
   .header-2 .fluid-nav {
     padding: 0 15px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    .header-top-notification
-    .notification-card {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-card {
     top: 40px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    .header-top-notification
-    .notification-button {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button {
     margin-top: 15px;
     margin-bottom: 5px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    .header-top-notification
-    .notification-button:before {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button:before {
     color: #6f7484;
     top: 0;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    .header-top-notification
-    .notification-button:after {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav .header-top-notification .notification-button:after {
     background: #6f7484;
     top: 0;
   }
@@ -7208,7 +5737,7 @@ header .absolute-nav {
   }
   .cp-nav .navbar-toggler .navbar-toggler-icon:before {
     content: "\e68e";
-    font-family: "themify";
+    font-family: 'themify';
   }
   .cp-nav .navbar-toggler.collapsed {
     background: transparent;
@@ -7274,11 +5803,7 @@ header .absolute-nav {
   .cp-nav .navbar-collapse .navbar-nav.account-nav li.dropdown > a:after {
     top: 18px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    li.dropdown
-    .notification-card {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav li.dropdown .notification-card {
     left: 0;
     right: auto;
   }
@@ -7314,7 +5839,7 @@ header .absolute-nav {
   }
   .header-top .header-top-toggler .header-top-toggler-button:before {
     content: "\f142";
-    font-family: "Font Awesome\ 5 Free";
+    font-family: 'Font Awesome\ 5 Free';
     color: #6f7484;
     font-weight: 900;
   }
@@ -7374,87 +5899,48 @@ header .absolute-nav {
     /* Set Scrollbar Track */
     /* Set Scrollbar Handle */
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body::-webkit-scrollbar {
+  .header-top .top-nav .notification-card .notification-body::-webkit-scrollbar {
     width: 8px;
     background: #f3f3f3;
     right: 20px;
     border-radius: 5px;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body::-webkit-scrollbar-track {
+  .header-top .top-nav .notification-card .notification-body::-webkit-scrollbar-track {
     border-radius: 5px;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body::-webkit-scrollbar-thumb {
+  .header-top .top-nav .notification-card .notification-body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: #dbe0e9;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list {
+  .header-top .top-nav .notification-card .notification-body .notification-list {
     padding: 10px 0;
     padding-left: 30px;
     position: relative;
     display: block;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list
-    i {
+  .header-top .top-nav .notification-card .notification-body .notification-list i {
     position: absolute;
     top: 14px;
     left: 0;
     color: rgba(1, 209, 61, 0.5);
-    transition: all 0.3s ease;
+    transition: all .3s ease;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list
-    p {
+  .header-top .top-nav .notification-card .notification-body .notification-list p {
     margin-bottom: 0;
     color: #6f7484;
     line-height: 1.3;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list
-    p
-    span {
+  .header-top .top-nav .notification-card .notification-body .notification-list p span {
     font-size: 1.4rem;
     font-style: normal;
     color: #246df8;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list
-    span {
+  .header-top .top-nav .notification-card .notification-body .notification-list span {
     color: #aaafcb;
     font-size: 1.3rem;
     font-style: italic;
   }
-  .header-top
-    .top-nav
-    .notification-card
-    .notification-body
-    .notification-list:hover
-    i {
+  .header-top .top-nav .notification-card .notification-body .notification-list:hover i {
     color: #01d13d;
   }
   .header-top .top-nav .notification-card .notification-footer {
@@ -7508,7 +5994,7 @@ header .absolute-nav {
   }
   .cp-nav-2 .navbar-toggler .navbar-toggler-icon:before {
     content: "\e68e";
-    font-family: "themify";
+    font-family: 'themify';
   }
   .cp-nav-2 .navbar-collapse {
     position: absolute;
@@ -7569,11 +6055,7 @@ header .absolute-nav {
   .cp-nav .navbar-collapse .navbar-nav li.dropdown .dropdown-menu {
     padding: 0 15px;
   }
-  .cp-nav
-    .navbar-collapse
-    .navbar-nav.account-nav
-    li.dropdown.header-top-notification
-    .notification-card {
+  .cp-nav .navbar-collapse .navbar-nav.account-nav li.dropdown.header-top-notification .notification-card {
     top: 40px;
     left: -15px;
     width: 290px;
@@ -7636,11 +6118,7 @@ header .absolute-nav {
   padding: 40px 20px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  background-image: linear-gradient(
-    to bottom,
-    rgba(36, 109, 248, 0.1),
-    rgba(36, 109, 248, 0)
-  );
+  background-image: linear-gradient(to bottom, rgba(36, 109, 248, 0.1), rgba(36, 109, 248, 0));
   padding-left: 45%;
   position: relative;
 }
@@ -7673,7 +6151,7 @@ header .absolute-nav {
 
 .call-to-action-box a i {
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   position: relative;
   transform: translateX(-10px);
   margin-left: 5px;
@@ -7730,8 +6208,8 @@ header .absolute-nav {
 }
 
 .call-to-action-2 .call-to-action-button .button:before {
-  content: "\f067";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f067';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   margin-right: 10px;
 }
@@ -7886,7 +6364,7 @@ header .absolute-nav {
 }
 
 .testimonial .testimonial-for .testimonial-item p {
-  font-size: 2rem;
+  font-size: 2.0rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   max-width: 700px;
@@ -7923,7 +6401,7 @@ header .absolute-nav {
 }
 
 .testimonial .testimonial-nav .commenter-thumb.slick-active {
-  opacity: 0.3;
+  opacity: .3;
   cursor: pointer;
 }
 
@@ -7940,7 +6418,7 @@ header .absolute-nav {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 3px;
   margin-bottom: 30px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .advice .body {
@@ -8034,7 +6512,7 @@ header .absolute-nav {
   position: absolute;
   top: 3px;
   left: 3px;
-  transition: all 0.6s ease;
+  transition: all .6s ease;
 }
 
 .pricing-controller .switch-wrap .price-switch.year-active {
@@ -8130,8 +6608,8 @@ header .absolute-nav {
 }
 
 .package-wrapper .package .package-features ul li:before {
-  content: "\f058";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f058';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   position: absolute;
   font-size: 1.2rem;
@@ -8187,12 +6665,7 @@ header .absolute-nav {
   height: 5px;
 }
 
-.professonal-skill
-  .progress-group
-  .progress-item
-  .progress-body
-  .progress
-  .progress-bar {
+.professonal-skill .progress-group .progress-item .progress-body .progress .progress-bar {
   background: #246df8;
 }
 
@@ -8245,7 +6718,7 @@ header .absolute-nav {
   margin: 0 5px;
   font-weight: 400;
   color: #6f7484;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   position: relative;
 }
 
@@ -8319,8 +6792,7 @@ header .absolute-nav {
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.footer-social
-  .select-language.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+.footer-social .select-language.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 60px;
   outline: none !important;
 }
@@ -8404,42 +6876,27 @@ header .absolute-nav {
   color: #6f7484;
 }
 
-.footer-widget.footer-newsletter
-  .newsletter-form
-  .form-group
-  .form-control::-webkit-input-placeholder {
+.footer-widget.footer-newsletter .newsletter-form .form-group .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #6f7484;
 }
 
-.footer-widget.footer-newsletter
-  .newsletter-form
-  .form-group
-  .form-control::-moz-placeholder {
+.footer-widget.footer-newsletter .newsletter-form .form-group .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #6f7484;
 }
 
-.footer-widget.footer-newsletter
-  .newsletter-form
-  .form-group
-  .form-control:-ms-input-placeholder {
+.footer-widget.footer-newsletter .newsletter-form .form-group .form-control:-ms-input-placeholder {
   /* IE 10+ */
   color: #6f7484;
 }
 
-.footer-widget.footer-newsletter
-  .newsletter-form
-  .form-group
-  .form-control:-moz-placeholder {
+.footer-widget.footer-newsletter .newsletter-form .form-group .form-control:-moz-placeholder {
   /* Firefox 18- */
   color: #6f7484;
 }
 
-.footer-widget.footer-newsletter
-  .newsletter-form
-  .form-group
-  .form-control:focus {
+.footer-widget.footer-newsletter .newsletter-form .form-group .form-control:focus {
   border-bottom-color: #246df8;
 }
 
@@ -8527,7 +6984,7 @@ header .absolute-nav {
   line-height: 55px;
   text-align: center;
   margin-left: 15px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .footer-bottom .back-to-top a:hover {
@@ -8665,7 +7122,7 @@ header .absolute-nav {
   bottom: 0;
   width: 1px;
   background: rgba(0, 0, 0, 0.08);
-  content: "";
+  content: '';
 }
 
 .employer {
@@ -8673,7 +7130,7 @@ header .absolute-nav {
   flex-wrap: wrap;
   padding: 30px 20px;
   border-radius: 3px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -9021,7 +7478,7 @@ header .absolute-nav {
 
 .info-box:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 60px;
   left: 25px;
   bottom: 30px;
@@ -9137,7 +7594,7 @@ header .absolute-nav {
 }
 
 .faq-tab .nav-item .nav-link:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -9146,8 +7603,7 @@ header .absolute-nav {
   background: #ebebeb;
 }
 
-.faq-tab .nav-item .nav-link:hover,
-.faq-tab .nav-item .nav-link:focus {
+.faq-tab .nav-item .nav-link:hover, .faq-tab .nav-item .nav-link:focus {
   display: block;
 }
 
@@ -9190,7 +7646,7 @@ header .absolute-nav {
   top: 22px;
   right: 0;
   content: "\e622";
-  font-family: "themify";
+  font-family: 'themify';
   font-size: 1.4rem;
   height: 25px;
   width: 25px;
@@ -9205,8 +7661,7 @@ header .absolute-nav {
   content: "\e61a";
 }
 
-.card .card-header h5 .btn-link:hover,
-.card .card-header h5 .btn-link:focus {
+.card .card-header h5 .btn-link:hover, .card .card-header h5 .btn-link:focus {
   text-decoration: none;
 }
 
@@ -9434,7 +7889,7 @@ header .absolute-nav {
 
 .blog-grid .body:before {
   position: absolute;
-  content: "";
+  content: '';
   bottom: 0;
   left: 30px;
   right: 30px;
@@ -9487,8 +7942,7 @@ header .absolute-nav {
   color: #ffffff;
 }
 
-.blog-grid .thumb + .body + .info .author,
-.blog-grid .thumb + .body + .info .comments {
+.blog-grid .thumb + .body + .info .author, .blog-grid .thumb + .body + .info .comments {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -9605,14 +8059,13 @@ header .absolute-nav {
   position: relative;
 }
 
-.post-meta:before,
-.post-meta:after {
+.post-meta:before, .post-meta:after {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 1px;
   background: rgba(0, 0, 0, 0.08);
-  content: "";
+  content: '';
 }
 
 .post-meta:before {
@@ -9750,7 +8203,7 @@ header .absolute-nav {
 
 .post-comment-block .comment-respond:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 60px;
   right: 0;
   bottom: 60px;
@@ -9798,95 +8251,44 @@ header .absolute-nav {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .commenter-thumb {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .commenter-thumb {
   height: 55px;
   width: 55px;
   border-radius: 50%;
   overflow: hidden;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .commenter-info {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .commenter-info {
   padding-left: 20px;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .commenter-info
-  span {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .commenter-info span {
   display: block;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .commenter-info
-  span.commenter-name {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .commenter-info span.commenter-name {
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #101725;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .commenter-info
-  span.date {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .commenter-info span.date {
   font-size: 1.2rem;
   color: #6f7484;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .reply {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .reply {
   margin-left: auto;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .reply
-  .reply-button {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .reply .reply-button {
   font-size: 1.2rem;
   outline: none;
   box-shadow: none;
@@ -9899,37 +8301,17 @@ header .absolute-nav {
   padding: 3px 10px;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .reply
-  .reply-button:hover {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .reply .reply-button:hover {
   color: #246df8;
   border-color: #246df8;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-info
-  .reply
-  .modal-body
-  .comment-respond:before {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-info .reply .modal-body .comment-respond:before {
   height: 0;
   width: 0;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment
-  .comment-wrap
-  .comment-body {
+.post-comment-block .comment-area .comments .comment .comment-wrap .comment-body {
   padding-top: 20px;
   color: #6f7484;
 }
@@ -9944,13 +8326,7 @@ header .absolute-nav {
   padding-bottom: 0;
 }
 
-.post-comment-block
-  .comment-area
-  .comments
-  .comment:last-child
-  .child-comment
-  .comment:last-child
-  .comment-wrap {
+.post-comment-block .comment-area .comments .comment:last-child .child-comment .comment:last-child .comment-wrap {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   padding-bottom: 30px;
 }
@@ -10015,8 +8391,7 @@ header .absolute-nav {
     display: block;
     padding: 20px 0;
   }
-  .post-meta:before,
-  .post-meta:after {
+  .post-meta:before, .post-meta:after {
     height: 0;
     width: 0;
   }
@@ -10252,8 +8627,7 @@ header .absolute-nav {
   margin-right: 7px;
 }
 
-.checkout-form .payment-method a.active,
-.checkout-form .payment-method a:hover {
+.checkout-form .payment-method a.active, .checkout-form .payment-method a:hover {
   background: #246df8;
   color: #ffffff;
   border-color: #246df8;
@@ -10439,7 +8813,7 @@ header .absolute-nav {
 
 .invoice-header .logo-area:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: -30px;
   bottom: 0;
@@ -10455,7 +8829,7 @@ header .absolute-nav {
 }
 
 .invoice-header .title span {
-  font-size: 6rem;
+  font-size: 6.0rem;
   line-height: 1;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -10598,7 +8972,7 @@ header .absolute-nav {
 
 .invoice-footer .bill .total:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   right: -30px;
   width: 30px;
@@ -10678,13 +9052,13 @@ header .absolute-nav {
 
 .terms-container .terms-sidebar .sidebar-menu li:before {
   position: absolute;
-  content: "";
+  content: '';
   bottom: 0;
   left: 0;
   height: 1px;
   width: 0;
   background: rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 .terms-container .terms-sidebar .sidebar-menu li:hover a {
@@ -10753,11 +9127,10 @@ header .absolute-nav {
   left: 0;
   right: 0;
   height: 2px;
-  content: "";
+  content: '';
 }
 
-.policy-tab .nav-tabs .nav-item .nav-link:focus,
-.policy-tab .nav-tabs .nav-item .nav-link:hover {
+.policy-tab .nav-tabs .nav-item .nav-link:focus, .policy-tab .nav-tabs .nav-item .nav-link:hover {
   border: 0;
   box-shadow: none;
 }
@@ -10809,8 +9182,8 @@ header .absolute-nav {
 
 .policy-tab .tab-content ul li:before {
   position: absolute;
-  content: "\f058";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f058';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   top: 2px;
   left: -20px;
@@ -10827,7 +9200,7 @@ header .absolute-nav {
 }
 
 .policy-tab .tab-content .substyle li:before {
-  content: "";
+  content: '';
 }
 
 .policy-tab .tab-content .substyle li span {
@@ -10838,8 +9211,8 @@ header .absolute-nav {
 }
 
 .policy-tab .tab-content .substyle li span:before {
-  content: "\f0da";
-  font-family: "Font Awesome\ 5 Free";
+  content: '\f0da';
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   margin-right: 5px;
 }
@@ -10864,7 +9237,7 @@ header .absolute-nav {
     height: 30px;
   }
   .invoice-header .title span {
-    font-size: 3rem;
+    font-size: 3.0rem;
   }
   .invoice-info {
     flex-wrap: wrap;
