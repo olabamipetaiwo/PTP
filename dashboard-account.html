@@ -23,14 +23,10 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/jquery.nstSlider.min.css" />
-    <link
-      rel="stylesheet"
-      href="assets/css/html5-simple-date-input-polyfill.css"
-    />
 
     <!-- Custom Css -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="dashboard/css/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
 
     <!-- Fonts -->
     <link
@@ -157,30 +153,38 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="menu-item active">
-                    <a href="employer-dashboard.html">Dashboard</a>
+                    <a title="Home" href="dashboard.html">Dashboard</a>
+                  </li>
+                  <li class="menu-item">
+                    <a title="Home" href="./dashboard-profile.html">Profile</a>
                   </li>
                   <li class="menu-item active">
-                    <a href="employer-dashboard-manage-job.html">Manage Jobs</a>
+                    <a title="Home" href="dashboard-resume.html">Resume</a>
                   </li>
-                  <li class="menu-item active">
-                    <a href="employer-dashboard-manage-candidate.html"
-                      >Manage Candidates</a
+                  <li class="menu-item dropdown">
+                    <a
+                      href="#"
+                      data-toggle="dropdown"
+                      class="dropdown-toggle"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Jobs</a
                     >
+                    <ul class="dropdown-menu">
+                      <li class="menu-item">
+                        <a href="job-listing.html">Bookmarked</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="job-listing-with-map.html">Applied</a>
+                      </li>
+                    </ul>
                   </li>
-
+                  <li class="menu-item">
+                    <a title="Home" href="dashboard-affliate.html">Affliates</a>
+                  </li>
                   <li class="menu-item active">
-                    <a href="employer-profile.html">Profile</a>
-                  </li>
-
-                  <li class="menu-item active">
-                    <a href="employer-dashboard-mailing-list.html"
-                      >Mailing List</a
-                    >
-                  </li>
-
-                  <li class="menu-item post-job">
-                    <a href="employer-dashboard-post-job.html"
-                      ><i class="fas fa-plus"></i>Post a Job</a
+                    <a title="Account" href="./dashboard-account.html"
+                      >Account</a
                     >
                   </li>
                 </ul>
@@ -197,19 +201,24 @@
         <div class="row">
           <div class="col-md-6">
             <div class="breadcrumb-area">
-              <h1>Employer Dashboard</h1>
+              <h1>Candidates Dashboard</h1>
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
-                    Employer Dashboard
+                    Candidates Dashboard
                   </li>
                 </ol>
               </nav>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="breadcrumb-form"></div>
+            <div class="breadcrumb-form">
+              <form action="#">
+                <input type="text" placeholder="Enter Keywords" />
+                <button><i data-feather="search"></i></button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -222,347 +231,162 @@
           <div class="col">
             <div class="dashboard-container">
               <div class="dashboard-content-wrapper">
-                <form action="#" class="dashboard-form job-post-form">
+                <form action="#" class="dashboard-form">
                   <div class="dashboard-section basic-info-input">
-                    <h4><i data-feather="user-check"></i>Post A Job</h4>
+                    <h4><i data-feather="airplay"></i>Account Details</h4>
                     <div class="form-group row">
-                      <label class="col-md-3 col-form-label">Job Title</label>
-                      <div class="col-md-9">
+                      <label class="col-sm-3 col-form-label"
+                        >Bank Account</label
+                      >
+                      <div class="col-sm-9">
                         <input
                           type="text"
                           class="form-control"
-                          placeholder="Your job title here"
+                          placeholder="Bank Account"
                         />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-md-3 col-form-label">Hashtags</label>
-                      <div class="col-md-9">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Job Hastags Here"
-                        />
-                        <div
-                          class="special-qualification details-section"
-                          style="padding-left: 0; padding-top: 15px"
-                        >
-                          <ul>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                            <li>JS</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label">Job Summary</label>
-                      <div class="col-md-9">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option>Select Category</option>
-                                <option>Accounting / Finance</option>
-                                <option>Health Care</option>
-                                <option>Garments / Textile</option>
-                                <option>Telecommunication</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Job Location"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option>Job Type</option>
-                                <option>Part Time</option>
-                                <option>Full Time</option>
-                                <option>Temperory</option>
-                                <option>Permanent</option>
-                                <option>Freelance</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option>Experience (Optional)</option>
-                                <option>Less than 1 Year</option>
-                                <option>2 Year</option>
-                                <option>3 Year</option>
-                                <option>4 Year</option>
-                                <option>Over 5 Year</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Salary Range"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option>Qualification</option>
-                                <option>Matriculation</option>
-                                <option>Intermidiate</option>
-                                <option>Gradute</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                          </div>
-                          
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Vacancy"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group datepicker">
-                              <input type="date" class="form-control" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label"
-                        >Job Description</label
-                      >
-                      <div class="col-md-9">
-                        <textarea
-                          id="mytextarea"
-                          class="tinymce-editor tinymce-editor-1"
-                          placeholder="Description text here"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label"
-                        >Responsibilities</label
-                      >
-                      <div class="col-md-9">
-                        <textarea
-                          id="mytextarea2"
-                          class="tinymce-editor tinymce-editor-2"
-                          placeholder="Responsibilities (Optional)"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label">Education</label>
-                      <div class="col-md-9">
-                        <textarea
-                          id="mytextarea3"
-                          class="tinymce-editor tinymce-editor-2"
-                          placeholder="Education (Optional)"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label"
-                        >Other Benefits</label
-                      >
-                      <div class="col-md-9">
-                        <textarea
-                          id="mytextarea4"
-                          class="tinymce-editor tinymce-editor-2"
-                          placeholder="Description text here"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-md-3 col-form-label"
-                        >Your Location</label
-                      >
-                      <div class="col-md-9">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option>Country</option>
-                                <option>USA</option>
-                                <option>United Kindom</option>
-                                <option>Spain</option>
-                                <option>France</option>
-                                <option>Germany</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                            <div class="form-group">
-                              <select
-                                class="form-control"
-                                id="exampleFormControlSelect11"
-                              >
-                                <option>City</option>
-                                <option>New Work</option>
-                                <option>Washington D.C</option>
-                                <option>California</option>
-                                <option>Las Vegas</option>
-                              </select>
-                              <i class="fa fa-caret-down"></i>
-                            </div>
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Zip Code"
-                              />
-                            </div>
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Your Location"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-6"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label class="col-md-3 col-form-label"
-                        >About Company</label
-                      >
-                      <div class="col-md-9">
-                        <div class="row">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Company Name"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                placeholder="Web Address"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea
-                                class="form-control"
-                                placeholder="Company Profile"
-                              ></textarea>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
 
-                    <div class="row">
-                      <div class="col-md-9 offset-md-3">
-                        <div class="form-group terms">
-                          <input
-                            class="custom-radio"
-                            type="checkbox"
-                            id="radio-4"
-                            name="termsandcondition"
-                          />
-                          <label for="radio-4">
-                            <span class="dot"></span> You accepts our
-                            <a href="#">Terms and Conditions</a> and
-                            <a href="#">Privacy Policy</a>
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label"
+                        >Routing Number</label
+                      >
+                      <div class="col-sm-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Routing Number"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label">Bank Name</label>
+                      <div class="col-sm-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Bank Name"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label">State</label>
+                      <div class="col-sm-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="State"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label">City</label>
+                      <div class="col-sm-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="City"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label">Zipcode</label>
+                      <div class="col-sm-9">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Zipcode"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label class="col-sm-3 col-form-label"
+                        >Account Type</label
+                      >
+                      <div class="col-sm-9">
+                        <div class="account-type">
+                          <label for="idRegisterCan">
+                            <input
+                              id="idRegisterCan"
+                              type="radio"
+                              name="register"
+                            />
+                            <span>Savings</span>
+                          </label>
+                          <label for="idRegisterEmp">
+                            <input
+                              id="idRegisterEmp"
+                              type="radio"
+                              name="register"
+                            />
+                            <span>Current</span>
                           </label>
                         </div>
                       </div>
                     </div>
+
                     <div class="form-group row">
-                      <label class="col-md-3 col-form-label"></label>
-                      <div class="col-md-9">
-                        <button class="button">Post Your Job</button>
+                      <label class="col-sm-3 col-form-label"></label>
+                      <div class="col-sm-9">
+                        <button class="button">Save Banking Details</button>
                       </div>
                     </div>
                   </div>
                 </form>
               </div>
-
-              <!-- Sidebar -->
-
-              <section class="dashboard-sidebar">
-                <div class="company-info">
+              <div class="dashboard-sidebar">
+                <div class="user-info">
                   <div class="thumb">
                     <img
-                      src="dashboard/images/company-logo.png"
+                      src="dashboard/images/user-1.jpg"
                       class="img-fluid"
                       alt=""
                     />
                   </div>
-                  <div class="company-body">
-                    <h5>Degoin</h5>
+                  <div class="user-body">
+                    <h5>L.W</h5>
                     <span>@username</span>
                   </div>
                 </div>
-                <div class="profile-progress">
-                  <div class="progress-item">
-                    <div class="progress-head">
-                      <p class="progress-on">Profile</p>
-                    </div>
-                  </div>
-                </div>
+
                 <div class="dashboard-menu">
                   <ul>
                     <li>
                       <i class="fas fa-home"></i
-                      ><a href="employer-dashboard.html">Dashboard</a>
-                    </li>
-
-                    <li>
-                      <i class="fas fa-briefcase"></i
-                      ><a href="employer-dashboard-manage-job.html"
-                        >Manage Jobs</a
-                      >
-                    </li>
-                    <li>
-                      <i class="fas fa-users"></i
-                      ><a href="employer-dashboard-manage-candidate.html"
-                        >Manage Candidates</a
-                      >
-                    </li>
-
-                    <li class="active">
-                      <i class="fas fa-plus-square"></i
-                      ><a href="employer-dashboard-post-job.html"
-                        >Post New Job</a
-                      >
+                      ><a href="dashboard.html">Dashboard</a>
                     </li>
                     <li>
                       <i class="fas fa-user"></i
-                      ><a href="employer-profile.html">Profile</a>
+                      ><a href="dashboard-edit-profile.html">Profile</a>
                     </li>
                     <li>
-                      <i class="fas fa-map"></i
-                      ><a href="employer-dashboard-mailing-list.html"
-                        >Mailing List</a
-                      >
+                      <i class="fas fa-file-alt"></i
+                      ><a href="dashboard-resume.html">Resume</a>
+                    </li>
+
+                    <li>
+                      <i class="fas fa-heart"></i
+                      ><a href="dashboard-bookmark.html">Bookmarked</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-check-square"></i
+                      ><a href="dashboard-applied.html">Applied Job</a>
+                    </li>
+                    <li>
+                      <i class="fas fa-share"></i
+                      ><a href="./dashboard-affliate.html">Affliates</a>
+                    </li>
+                    <li class="active">
+                      <i class="fab fa-money-bill"></i
+                      ><a href="./dashboard-account.html">Account</a>
                     </li>
                   </ul>
+
                   <ul class="delete">
                     <li>
                       <i class="fas fa-power-off"></i><a href="#">Logout</a>
@@ -623,8 +447,7 @@
                     </div>
                   </div>
                 </div>
-              </section>
-              <!-- Sidebar -->
+              </div>
             </div>
           </div>
         </div>
@@ -704,7 +527,6 @@
     <script src="assets/js/tinymce.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/html5-simple-date-input-polyfill.min.js"></script>
 
     <script src="js/custom.js"></script>
     <script src="dashboard/js/dashboard.js"></script>
